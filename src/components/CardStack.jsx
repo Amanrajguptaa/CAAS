@@ -17,7 +17,7 @@ function CardStack() {
         <img className="rounded-xl bject-cover w-full h-full" src="/post1.jpg" alt="" />
       </div>
       <div
-        className={`absolute bg-[#a7ff00] h-64 w-52 sm:h-72 sm:w-60 rounded-xl border-[2px] border-black ${isHovered ? 'relative' : '-rotate-[4deg]'}`}
+        className={`hidden md:block absolute bg-[#a7ff00] h-64 w-52 sm:h-72 sm:w-60 rounded-xl border-[2px] border-black ${isHovered ? 'relative' : '-rotate-[4deg]'}`}
         style={{ top: isHovered ? '0' : '5px', left: isHovered ? '0' : '-12px', zIndex: 6, transform: isHovered ? 'rotate(0deg)' : '' }}
       >
         <img className="rounded-xl object-cover w-full h-full" src="/post2.jpg" alt="" />
