@@ -17,7 +17,7 @@ function FullCarousel() {
 
           {/* Carousel Header */}
           <div className="absolute inset-0 flex  justify-center items-center -mt-16 md:-mt-32">
-            <div className="absolute top-[20%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-screen">
+            <div className="absolute top-[20%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-screen overflow-clip">
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>
@@ -32,7 +32,7 @@ function FullCarousel() {
 
           {/* Carousel Footer (Duplicate Header) */}
           <div className="absolute inset-0 flex  justify-center items-center -mt-[145%] sm:-mt-44 md:-mt-56">
-            <div className="absolute top-[74%] sm:top-[76%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-screen">
+            <div className="absolute top-[74%] sm:top-[76%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-screen overflow-clip">
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>
               <span className="text-black font-brasika text-xs sm:text-2xl md:text-5xl mr-7">Carousels</span>

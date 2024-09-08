@@ -14,7 +14,7 @@ function PhoneSection() {
           </div>
 
           <div className="absolute inset-0 top-5 flex flex-col justify-center items-center">
-            <div className="absolute top-[10%] md:top-[5%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen">
+            <div className="absolute top-[10%] md:top-[5%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen overflow-clip">
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-24">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-24">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-24">Reels</span>
@@ -22,7 +22,7 @@ function PhoneSection() {
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl">Reels</span>
             </div>
 
-            <div className="absolute top-[45%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen">
+            <div className="absolute top-[45%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen overflow-hidden">
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
@@ -30,7 +30,7 @@ function PhoneSection() {
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl">Reels</span>
             </div>
 
-            <div className="absolute top-[88%] sm:top-[82%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen">
+            <div className="absolute top-[88%] sm:top-[82%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-screen overflow-clip">
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-md sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
