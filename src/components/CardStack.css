@@ -1,0 +1,17 @@
+/* CardStack.css
+
+.card-stack {
+    @apply relative w-64 h-64 flex flex-col items-center justify-center;
+  }
+  
+  .card {
+    @apply absolute w-48 h-64 bg-white rounded-lg shadow-lg transform transition-transform duration-300 ease-in-out;
+  }
+  
+  /* This is for hover effect to spread cards */
+  /* .card-stack:hover .card:nth-child(1) { @apply transform -translate-x-12 -translate-y-12; }
+  .card-stack:hover .card:nth-child(2) { @apply transform -translate-x-6 -translate-y-6; }
+  .card-stack:hover .card:nth-child(3) { @apply transform translate-x-0 translate-y-0; }
+  .card-stack:hover .card:nth-child(4) { @apply transform translate-x-6 translate-y-6; }
+  .card-stack:hover .card:nth-child(5) { @apply transform translate-x-12 translate-y-12; }
+   */ 
