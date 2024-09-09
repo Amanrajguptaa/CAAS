@@ -24,7 +24,7 @@ function App() {
       <HeroSection/>
       <HeroVideo/>
       <BrandService/>
-      <Carousel/>
+      {/* <Carousel/> */}
       <Creativity/>
       <StackCards/>
       <FullCarousel/>
