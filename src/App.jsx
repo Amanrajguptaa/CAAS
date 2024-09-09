@@ -27,7 +27,7 @@ function App() {
       {/* <Carousel/> */}
       <Creativity/>
       <StackCards/>
-      <FullCarousel/>
+        <FullCarousel/>
       <PhoneSection/>
       <Ppt/>
       <Experience/>

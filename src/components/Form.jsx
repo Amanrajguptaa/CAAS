@@ -22,16 +22,16 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex h-auto md:w-1/2">
+    <div className="flex w-full md:w-1/2">
       <form 
-        className="bg-[#a7ff00] w-full p-1 md:p-8 rounded-lg shadow-md"
+        className="bg-[#a7ff00] w-full px-3 py-1 md:p-8 rounded-lg shadow-md"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-[12px] md:text-2xl font-bold mb-2 md:mb-6 text-center">Contact Form</h2>
+        <h2 className="text-[12px] md:text-2xl font-bold mb-2 md:mb-6 text-center">Contact</h2>
 
         {/* Name Input */}
         <div className="mb-1 sm:mb-3">
-          <label className="block text-[12px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="name">
+          <label className="block text-[15px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="name">
             Name
           </label>
           <input
@@ -48,7 +48,7 @@ const ContactForm = () => {
 
         {/* Email Input */}
         <div className="mb-1 sm:mb-3">
-          <label className="block text-[12px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="email">
+          <label className="block text-[15px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="email">
             Email
           </label>
           <input
@@ -65,7 +65,7 @@ const ContactForm = () => {
 
         {/* Phone Input */}
         <div className="mb-1 sm:mb-3">
-          <label className="block text-[9px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="phone">
+          <label className="block text-[10px] md:text-xs text-gray-700 font-semibold sm:mb-2" htmlFor="phone">
             Phone Number
           </label>
           <input
@@ -74,7 +74,7 @@ const ContactForm = () => {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full text-[8px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+            className="w-full text-[6px]  md:p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
             placeholder="Enter your phone number"
             required
           />

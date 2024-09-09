@@ -4,7 +4,7 @@ function Ppt() {
   return (
     <div id='ppt' className=" relative mt-5 sm:mt-0 pb-96 z-50">
       <div className="text-black">
-        <section className="mx-3 md:mx-10 h-auto   bg-[#0038c7] relative  ">
+        <section className="mx-2 md:mx-10 h-auto   bg-[#0038c7] relative  ">
           {/* Background Image */}
           <div className="relative overflow-hidden">
             <img
@@ -78,21 +78,21 @@ function Ppt() {
 <div class="main-container">
 <div class="card-container-02 md:mt-52">
 
-    <div class="card-odd md:mr-[3px]">
+    <div class="card-odd mr-[2px] md:mr-[3px]">
       <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt6.jpg" alt="" />
     </div>
 
-    <div class="card-even md:mr-[3px]">
+    <div class="card-even mr-[2px] md:mr-[3px]">
     <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt7.jpg" alt="" />
 
     </div>
 
-    <div class="card-odd md:mr-[3px]">
+    <div class="card-odd mr-[2px] md:mr-[3px]">
     <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt8.jpg" alt="" />
 
     </div>
 
-    <div class="card-even md:mr-[3px]">
+    <div class="card-even mr-[2px] md:mr-[3px]">
     <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt9.jpg" alt="" />
 
     </div>

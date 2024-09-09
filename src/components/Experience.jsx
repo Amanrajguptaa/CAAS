@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div id="contact" className="w-full -mt-[330px] sm:-mt-60 z-30 ">
       <div className="text-white">
-        <section className="mx-5 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
+        <section className="mx-2 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
           <div className="relative">
             <img
               className="border rounded-[50px] border-none w-full min-h-[350px]"
@@ -15,18 +15,18 @@ function Experience() {
           </div>
 
           <div className="absolute inset-0 flex flex-col top-16 sm:top-4  md:top-24 items-center px-5">
-            <div className="bg-white text-black flex gap-7 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-10  py-3  sm:py-10 md:py-20">
+            <div className="bg-white text-black flex gap-2 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-10  py-3  sm:py-10 md:py-20">
               <div className="flex flex-col justify-center">
-                <div className="font-brasika text-lg sm:text-5xl md:text-6xl ">
+                <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
                   want to
                 </div>
-                <div className="font-brasika text-lg sm:text-5xl md:text-6xl ">
+                <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
                   experience
                 </div>
                 <div className="font-brasika text-md sm:text-5xl md:text-[55px]  text-blue-600">
                   creativity as
                 </div>
-                <div className="font-brasika text-lg sm:text-5xl md:text-6xl  text-blue-600">
+                <div className="font-brasika text-md sm:text-5xl md:text-6xl  text-blue-600">
                   a service <span className="text-black">?</span>
                 </div>
                 <div className="flex justify-between items-center mt-8 border-[2px] bg-blue-600 border-blue-600 rounded-[50px] py-1 px-3 sm:py-2 sm:px-5 w-28 sm:w-48 md:w-80">

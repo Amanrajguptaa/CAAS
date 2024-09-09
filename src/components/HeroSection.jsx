@@ -4,9 +4,9 @@ import Navbar from "./Navbar";
 function HeroSection() {
   return (
 
-    <div id="home" className="text-white w-screen py-5 z-20">
+    <div id="home" className="text-white w-full py-5 z-20">
 
-      <section className="mx-3 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
+      <section className="mx-2 md:mx-10 pb-52 md:pb-0 rounded-t-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
         <div className="relative">
           <img
             className="min-h-96 rounded-[30px] md:rounded-[50px] border-none w-full"

@@ -4,18 +4,18 @@ import TypingWords from "./TypingWords.jsx";
 function Creativity() {
   const words = ["illegal", "違法", "अवैध", "غير قانوني"];
   return (
-    <div className="min-h-[500px] -mt-16 md:-mt-80">
+    <div className="min-h-[900px] ">
       <div className="text-white h-auto">
-        <section className="mx-3 md:mx-10 h-auto bg-[#0038c7] relative">
+        <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className=" relative">
             <img
-              className="min-h-[600px] border rounded-[30px] md:rounded-[50px] border-none w-full"
+              className="min-h-[900px] border rounded-[30px] md:rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt=""
             />
           </div>
 
-          <div className="absolute inset-0 flex flex-col justify-start md:justify-start items-center ">
+          <div className="absolute inset-0 top-10 sm:top-20 flex flex-col justify-start md:justify-start items-center ">
             <div className="w-full bg-[#a7ff00] rounded-xl md:rounded-2xl py-5  md:py-10 text-center flex flex-col">
               <div className="font-brasika text-black text-[22px] sm:text-[46px] md:text-7xl">
                 do not believe what they say,
