@@ -13,8 +13,8 @@ function PhoneSection() {
             />
           </div>
 
-          <div className="absolute inset-0 top-3 sm:top-0 flex flex-col justify-center items-center">
-            <div className="absolute top-[10%] md:top-[5%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+          <div className="absolute inset-0 top-3 sm:top-0 flex flex-col justify-center items-center overflow-hidden">
+            <div className="absolute top-[10%] md:top-[5%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full overflow-">
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>

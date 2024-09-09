@@ -3,7 +3,7 @@ import PostCarousel from './PostCarousel.jsx';
 
 function FullCarousel() {
   return (
-    <div id='carousels' className="relative -mt-60 sm:-mt-0 ">
+    <div id='carousels' className="relative -mt-60 sm:-mt-0 overflow-hidden">
       <div className="text-white">
         <section className="mx-2 md:mx-10 sm:pb-28 bg-[#0038c7] relative  ">
           {/* Background Image */}
@@ -16,9 +16,9 @@ function FullCarousel() {
           </div>
 
           {/* Carousel Header */}
-          <div className="absolute inset-0 flex  justify-start items-center -mt-16 md:-mt-32">
+          <div className="absolute inset-0 flex  justify-start items-center -mt-16 md:-mt-32 overflow-hidden  ">
             
-            <div className="absolute top-[20%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-full">
+            <div className="absolute top-[20%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-full overflow-hidden">
               <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
               <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
               <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
@@ -28,13 +28,13 @@ function FullCarousel() {
           </div>
 
           {/* Carousel Component */}
-          <div className="relative z-10 -mt-[40%] sm:-mt-[50%] md:-mt-[58%] min-h-[400px] -rotate-6">
+          <div className="relative z-10 -mt-[40%] sm:-mt-[50%] md:-mt-[58%] min-h-[400px] -rotate-6 overflow-hidden">
             <PostCarousel/>
           </div>
 
           {/* Carousel Footer (Duplicate Header) */}
-          <div className="absolute inset-0 flex  justify-center items-center -mt-[145%] sm:-mt-44 md:-mt-56">
-            <div className="absolute top-[74%] sm:top-[68%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-full">
+          <div className="absolute inset-0 flex  justify-center items-center -mt-[145%] sm:-mt-44 md:-mt-56 overflow-hidden">
+            <div className="absolute top-[74%] sm:top-[68%] justify-center items-center bg-[#a7ff00] text-black py-5 -rotate-[6deg] flex border-[2px] border-black w-full overflow-hidden">
             <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
               <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
               <span className="text-black font-brasika text-md sm:text-2xl md:text-5xl mr-6">Carousels</span>
