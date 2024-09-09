@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Experience() {
   return (
-    <div id="contact" className="w-full -mt-[330px] sm:-mt-60 z-30 ">
+    <div id="contact" className="w-full -mt-[330px] sm:-mt-60 z-10 ">
       <div className="text-white">
         <section className="mx-2 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
           <div className="relative">
@@ -13,9 +13,10 @@ function Experience() {
               alt=""
             />
           </div>
+          
 
-          <div className="absolute inset-0 flex flex-col top-16 sm:top-4  md:top-24 items-center px-5">
-            <div className="bg-white text-black flex gap-2 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-10  py-3  sm:py-10 md:py-20">
+          <div className="absolute inset-0 flex flex-col top-28 sm:top-20  md:top-60 items-center px-5">
+            <div className="bg-white text-black flex gap-2 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-12  py-3  sm:py-10 md:py-20">
               <div className="flex flex-col justify-center">
                 <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
                   want to
@@ -39,6 +40,7 @@ function Experience() {
               {/* <div className="bg-lime-500 h-[180px] sm:h-[300px] md:h-[350px] w-[40%] md:w-[30%] rounded-xl border-[2px] border-black mt-5 md:mt-0"> */}
               {/* </div> */}
             </div>
+            
           </div>
         </section>
       </div>

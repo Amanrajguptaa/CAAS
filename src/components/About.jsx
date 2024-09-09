@@ -5,16 +5,16 @@ function About() {
   return (
     <div id="about" className="h-auto">
       <div className=" text-white h-auto">
-        <section className="mx-2 md:mx-10 min-h-[600px] bg-[#0038c7] relative ">
+        <section className="mx-2 md:mx-10 min-h-[600px] sm:min-h-[900px] bg-[#0038c7] relative ">
           <div className="relative">
             <img
-              className="min-h-[600px]"
+              className="min-h-[600px] sm:min-h-[900px]"
               src="/gridd.png"
               alt=""
             />
           </div>
 
-          <div className="absolute inset-0 top-16 sm:top-2 flex flex-col justify-start items-center text-black ">
+          <div className="absolute inset-0 top-16 sm:top-20 flex flex-col justify-start items-center text-black ">
             <div className="text-center">
               <div className="font-brasika text-3xl sm:text-6xl md:text-8xl text-white">you may be thinkin</div>
               <div className="font-brasika text-3xl sm:text-6xl md:text-8xl text-white">who the <span className="text-lime-500">hell</span> we are?</div>

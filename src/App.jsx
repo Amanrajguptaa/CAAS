@@ -14,7 +14,7 @@ import Experience from './components/Experience.jsx'
 import About from './components/About.jsx'
 import Footer from './components/Footer.jsx'
 import Ppt from './components/Ppt.jsx'
-import Navbar from './components/Navbar.jsx'
+import Buttn from './components/Buttn.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,6 +32,7 @@ function App() {
       <Ppt/>
       <Experience/>
       <About/>
+      {/* <Buttn/> */}
     </>
   )
 }

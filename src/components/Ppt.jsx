@@ -2,7 +2,7 @@ import React from 'react'
 import './Ppt.css'
 function Ppt() {
   return (
-    <div id='ppt' className=" relative mt-5 sm:mt-0 pb-96 z-50">
+    <div id='ppt' className=" relative  sm:mt-0 pb-96 z-30">
       <div className="text-black">
         <section className="mx-2 md:mx-10 h-auto   bg-[#0038c7] relative  ">
           {/* Background Image */}
@@ -14,7 +14,9 @@ function Ppt() {
             />
           </div>
 
-          <div className="absolute top-10 flex flex-col ">
+          <div className="absolute top-5 sm:top-40 flex flex-col ">
+            
+            
       <div class="main-container ">
 
 <div class="card-container-01">
@@ -123,7 +125,13 @@ function Ppt() {
 
 </div>
 </div>
+
+
     </div>
+
+    <div className='absolute inset-0 flex justify-center items-center top-[140%]'><button className=" px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">
+        Check’em All
+      </button></div>
     </section>
     </div>
     </div>

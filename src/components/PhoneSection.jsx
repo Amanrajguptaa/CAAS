@@ -2,18 +2,18 @@ import React from "react";
 
 function PhoneSection() {
   return (
-    <div id="reels" className="h-auto -mt-40 sm:-mt-0 ">
+    <div id="reels" className="h-auto -mt-28 sm:-mt-0 z-50 ">
       <div className="text-white h-auto">
-        <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
+        <section className="mx-2 md:mx-10 min-h-[350px] bg-[#0038c7] relative">
           <div className="relative">
             <img
-              className="border rounded-[50px] border-none w-full"
+              className="border min-h-[350px] rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt=""
             />
           </div>
 
-          <div className="absolute inset-0 top-5 flex flex-col justify-center items-center">
+          <div className="absolute inset-0 top-3 sm:top-0 flex flex-col justify-center items-center">
             <div className="absolute top-[10%] md:top-[5%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
@@ -22,7 +22,7 @@ function PhoneSection() {
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl">Reels</span>
             </div>
 
-            <div className="absolute top-[45%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+            <div className="absolute top-[40%] sm:top-[45%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
@@ -30,7 +30,7 @@ function PhoneSection() {
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl">Reels</span>
             </div>
 
-            <div className="absolute top-[88%]   sm:top-[82%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+            <div className="absolute top-[65%]   sm:top-[82%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">Reels</span>
@@ -38,9 +38,9 @@ function PhoneSection() {
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl">Reels</span>
             </div>
 
- 
             
-            <div className="relative flex justify-center items-center mt-10 md:mt-0 space-x-4">
+        
+            <div className="relative flex justify-center items-center -mt-12 md:mt-0 space-x-4">
               <div className="relative w-[60px] h-[120px] sm:w-[100px] sm:h-[200px] md:w-56 md:h-[440px] translate-x-2/3 z-4">
                 {/* Video as the background */}
                 <video className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0" src="/video4.mp4" autoPlay loop muted />
@@ -77,11 +77,12 @@ function PhoneSection() {
                 {/* Phone image overlay */}
                 <img className="absolute inset-0 w-full h-full object-contain z-10" src="/phone.png" alt="Phone" />
               </div>
-              </div>
-
-
-
-
+            </div>
+            
+            <button className="z-50 absolute top-[80%] sm:top-[110%] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">
+        Check’em All
+      </button>
+            
           </div>
         </section>
       </div>

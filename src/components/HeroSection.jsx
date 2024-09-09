@@ -29,10 +29,10 @@ function HeroSection() {
 
           <div className="mt-5  flex justify-center items-center ">
             <div className="-mt-16">
-              <img src="/arrow.png" alt="arrow" className="w-[50px] sm:w-[80px] md:w-[50px] lg:w-[60px]" />
+              <img src="/arrow.png" alt="arrow" className="w-[50px] sm:w-[80px] md:w-[150px]" />
             </div>
             <a href="#contact">
-            <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black font-bold text-2xl md:text-2xl lg:text-3xl border-[3px] border-white">
+            <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black  text-2xl md:text-2xl lg:text-3xl border-[3px] border-white">
             Book a Demo
             </div>
             </a>
