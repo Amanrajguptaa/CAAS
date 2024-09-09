@@ -18,7 +18,7 @@ function HeroVideo() {
                   {/* Add any title or content here */}
                 </>
               }
-              videoSrc="/heroVideo.mp4" // Pass the video source here
+              videoSrc="/heroVide.mp4" // Pass the video source here
             >
               {/* <video
                 src="/video.mp4"

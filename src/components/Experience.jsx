@@ -3,7 +3,7 @@ import Form from "./Form";
 
 function Experience() {
   return (
-    <div id="contact" className="w-full -mt-[330px] sm:-mt-60 z-10 ">
+    <div id="contact" className="w-full -mt-[330px] sm:-mt-40 z-10 ">
       <div className="text-white">
         <section className="mx-2 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
           <div className="relative">
@@ -15,16 +15,16 @@ function Experience() {
           </div>
           
 
-          <div className="absolute inset-0 flex flex-col top-28 sm:top-20  md:top-60 items-center px-5">
+          <div className="absolute inset-0 flex flex-col top-24 sm:top-20  md:top-60 items-center px-5">
             <div className="bg-white text-black flex gap-2 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-12  py-3  sm:py-10 md:py-20">
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col justify-center sm:ml-20 ">
                 <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
                   want to
                 </div>
                 <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
                   experience
                 </div>
-                <div className="font-brasika text-md sm:text-5xl md:text-[55px]  text-blue-600">
+                <div className="font-brasika text-md sm:text-5xl md:text-[50px]  text-blue-600">
                   creativity as
                 </div>
                 <div className="font-brasika text-md sm:text-5xl md:text-6xl  text-blue-600">

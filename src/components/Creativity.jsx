@@ -25,51 +25,51 @@ function Creativity() {
               </div>
             </div>
 
-            <div className="flex mt-10 md:mt-16 border-[2px] border-white rounded-[30px] md:rounded-[50px] px-2 md:px-[80px] py-1 gap-[4px] md:gap-[20px]">
+            <div className="flex mt-10 md:mt-16 border-[2px] border-white rounded-[30px] md:rounded-[50px] px-2 md:px-[80px] py-3 gap-[4px] md:gap-[20px]">
               {/* {Array(6).fill(1).map((_, i) => (
-                <div key={i} className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+                <div key={i} className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center">
                 </div>
               ))} */}
               <a href="#posts">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon0.png`} alt="" />
               </span>
               </a>
 
               <a href="#carousels">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon1.png`} alt="" />
               </span>
               </a>
 
               <a href="#reels">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon2.png`} alt="" />
               </span>
               </a>
 
               <a href="#home">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon3.png`} alt="" />
               </span>
               </a>
 
 
               <a href="#ppt">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon4.png`} alt="" />
               </span>
               </a>
 
 
               <a href="#contact">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-16 md:w-16 flex justify-center items-center">
+              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
               <img className='h-1/2 md:h-1/2' src={`/Icon5.png`} alt="" />
               </span>
               </a>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-32">
+            <div className="flex flex-col justify-center items-center text-center mt-10 md:mt-16">
               <div className="font-brasika text-3xl sm:text-6xl md:text-8xl">
                 we create anything
               </div>

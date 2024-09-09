@@ -2,7 +2,7 @@ import React from 'react'
 import './Ppt.css'
 function Ppt() {
   return (
-    <div id='ppt' className=" relative  sm:mt-0 pb-96 z-30">
+    <div id='ppt' className=" relative  sm:-mt-10 pb-96 z-30">
       <div className="text-black">
         <section className="mx-2 md:mx-10 h-auto   bg-[#0038c7] relative  ">
           {/* Background Image */}
@@ -14,7 +14,7 @@ function Ppt() {
             />
           </div>
 
-          <div className="absolute top-5 sm:top-40 flex flex-col ">
+          <div className="absolute top-5 sm:top-44 flex flex-col ">
             
             
       <div class="main-container ">
@@ -129,9 +129,24 @@ function Ppt() {
 
     </div>
 
-    <div className='absolute inset-0 flex justify-center items-center top-[140%]'><button className=" px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">
+    {/* <div className='absolute inset-0 flex justify-center items-center top-[140%]'><button className=" px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">
         Check’em All
-      </button></div>
+      </button></div> */}
+      <div className='flex justify-center items-center'>
+       <button className=" group absolute  top-[135%] sm:top-[140%] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
+            <span>Check’em All</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 transform transition-all duration-300 group-hover:translate-x-8 group-hover:scale-150"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+  </svg>
+</button>
+</div>
     </section>
     </div>
     </div>
