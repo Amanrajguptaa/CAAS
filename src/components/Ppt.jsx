@@ -133,7 +133,7 @@ function Ppt() {
         Check’em All
       </button></div> */}
       <div className='flex justify-center items-center'>
-       <button className=" group absolute  top-[135%] sm:top-[140%] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
+       <button className=" group absolute  top-[130%] sm:top-[140%] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
             <span>Check’em All</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"

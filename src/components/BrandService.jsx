@@ -2,7 +2,7 @@ import React from "react";
 
 function BrandService() {
   return (
-    <div className="w-full z-10 -mt-10 sm:-mt-0">
+    <div id="brands" className="w-full z-10 -mt-10 sm:-mt-0">
       <div className="min-h-[400px] -mt-8 md:-mt-24 text-white">
         <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className="relative">

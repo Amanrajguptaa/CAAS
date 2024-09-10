@@ -38,7 +38,7 @@ function HeroSection() {
                 Book a Demo
               </div>
             </a> */}
-            <a href="#about" className="hover:text-lime-400 z-50">
+            <a href="#about" className="hover:text-lime-400">
             <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black  text-2xl md:text-2xl lg:text-3xl border-[3px] border-white hover:bg-[#000000] hover:text-[#a7ff00] transform transition-all duration-300 z-50">
                 Book a Demo
               </div>
