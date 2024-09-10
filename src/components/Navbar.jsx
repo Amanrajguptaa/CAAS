@@ -72,7 +72,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-80 flex flex-col items-center justify-center space-y-4 text-white text-lg font-semibold z-20">
+        <div className="z-[100] md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-80 flex flex-col items-center justify-center space-y-4 text-white text-lg font-semibold ">
           {/* Close Button inside Menu */}
           <button
             onClick={closeMenu}
