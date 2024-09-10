@@ -30,42 +30,41 @@ function Creativity() {
                 <div key={i} className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center">
                 </div>
               ))} */}
+
+              <a href="#home">
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon3.png`} alt="" />
+                </span>
+              </a>
+
               <a href="#posts">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon0.png`} alt="" />
-              </span>
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon0.png`} alt="" />
+                </span>
               </a>
 
               <a href="#carousels">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon1.png`} alt="" />
-              </span>
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon1.png`} alt="" />
+                </span>
               </a>
 
               <a href="#reels">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon2.png`} alt="" />
-              </span>
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon2.png`} alt="" />
+                </span>
               </a>
-
-              <a href="#home">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon3.png`} alt="" />
-              </span>
-              </a>
-
 
               <a href="#ppt">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon4.png`} alt="" />
-              </span>
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon4.png`} alt="" />
+                </span>
               </a>
 
-
               <a href="#contact">
-              <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
-              <img className='h-1/2 md:h-1/2' src={`/Icon5.png`} alt="" />
-              </span>
+                <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
+                  <img className="h-1/2 md:h-1/2" src={`/Icon5.png`} alt="" />
+                </span>
               </a>
             </div>
 
