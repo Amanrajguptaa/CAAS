@@ -1,5 +1,6 @@
 import React from 'react'
 import './Ppt.css'
+import { Link } from 'react-router-dom'
 function Ppt() {
   return (
     <div id='ppt' className=" relative  sm:-mt-10 pb-96 z-30">
@@ -132,7 +133,10 @@ function Ppt() {
     {/* <div className='absolute inset-0 flex justify-center items-center top-[140%]'><button className=" px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">
         Check’em All
       </button></div> */}
+            <Link to={"/ppt"}>
+
       <div className='flex justify-center items-center'>
+
        <button className=" group absolute  top-[130%] sm:top-[140%] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
             <span>Check’em All</span>
             <svg
@@ -147,6 +151,8 @@ function Ppt() {
   </svg>
 </button>
 </div>
+</Link>
+
     </section>
     </div>
     </div>

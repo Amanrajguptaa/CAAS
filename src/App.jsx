@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <HeroSection/>
+      {/* <HeroSection/>
       <HeroVideo/>
       <BrandService/>
       <Creativity/>
@@ -30,7 +30,7 @@ function App() {
       <PhoneSection/>
       <Ppt/>
       <Experience/>
-      <About/>
+      <About/> */}
       {/* <Buttn/> */}
     </>
   )

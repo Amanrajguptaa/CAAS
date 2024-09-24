@@ -1,5 +1,6 @@
 import React from 'react';
 import PostCarousel from './PostCarousel.jsx';
+import { Link } from 'react-router-dom';
 
 function FullCarousel() {
   return (
@@ -41,7 +42,9 @@ function FullCarousel() {
               <span className="hidden sm:block text-black font-brasika text-xs sm:text-2xl md:text-5xl">Carousels</span>
             </div>
             {/* <button className="  px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">Check’em All</button> */}
+            <Link to={'/carousels'}>
             <button className="group z-30 mt-[700px] sm:mt-[700px] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
+             
             <span>Check’em All</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -54,6 +57,7 @@ function FullCarousel() {
     <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
   </svg>
 </button>
+</Link>
           </div>
         </section>
       </div>

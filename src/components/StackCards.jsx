@@ -1,6 +1,7 @@
 import React from "react";
 import CardStack from "./CardStack";
 import Buttn from "./Buttn";
+import { Link } from "react-router-dom";
 
 function StackCards() {
   return (
@@ -15,6 +16,7 @@ function StackCards() {
               <span className="text-black font-brasika text-[10px] sm:text-2xl md:text-5xl mr-32 md:mr-20 ">Social Media Posts</span> <span className="text-black font-brasika text-[10px] sm:text-2xl md:text-6xl ">Social Media Posts</span> 
             </div>
             
+            <Link to={'/posts'}>
 
             <button className="group mt-5 sm:mt-16 px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
             <span>Check’em All</span>
@@ -29,6 +31,7 @@ function StackCards() {
     <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
   </svg>
 </button>
+</Link>
             {/* <button className="  border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">Check’em All</button> */}
           </div>
         </section>
