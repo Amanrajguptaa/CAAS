@@ -10,7 +10,7 @@ function Footer() {
     //       </div>
 
     //       <div className="absolute inset-x-0 bottom-0">
-    <footer className="bg-white shadow-md p-2 sm:p-6 rounded-t-lg w-full mt-20 sm:mt-0">
+    <footer className="bg-white shadow-md p-2 sm:p-6 rounded-t-lg w-full mt-20 sm:-mt-5">
       <div className="container mx-auto flex justify-between gap-2 items-start">
         <div className="flex flex-col gap-5 ml-0 sm:ml-5">
           <img className="" src="/webLogo.png" alt="" srcset="" />
