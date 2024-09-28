@@ -1,176 +1,194 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-@font-face {
-  font-family: 'brasika';
-  src: url('/Cards/Testimonial_Cards/brasika-display-trial.otf') format('opentype');
-  font-weight: normal; 
-  font-style: normal; 
-}
+  @font-face {
+    font-family: 'brasika';
+    src: url('/Cards/Testimonial_Cards/brasika-display-trial.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal; 
+  }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  background-color: #012583;
-  font-family: "brasika";
-}
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "brasika";
+  }
 
+  .main-container{
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space:nowrap;
+  }
+
+  .card-container{
+    height: 75%;
+    width: 100%;
+    display: inline-block;
+    margin-right: 6%;
+    margin-top: 25px;
+  }
+
+  .card{
+    height: 60%;
+    width: 20%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7.5px;
+    position: relative;
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: scale(1.05);
+    margin-right: 1%;
+  }
+
+  .card-img{
+    background-image: url(/cardFrame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70%;
+    width: 95%;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+  }
+
+  .card-img div{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    height: 60%;
+    width: 95%;
+    text-align: center;
+    padding: 2px;
+    margin-left: 5px;
+    }
+
+  .card-img p::-webkit-scrollbar{
+    width: 2px;
+    background: #000;
+  }
+
+  .card-img p::-webkit-scrollbar-thumb{
+    background-color: white;
+  }
+
+  .card-lbl{
+    background-color: #a7ff00;
+    border-radius: 25px;
+    border: 2px solid black;
+    position: relative;
+    top: 80%;
+    height: 12.5%;
+    width: 75%;
+    left: 12.5%;
+  }
+
+  .tag{
+    border: none;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    text-align: center;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    }
+
+
+  .icon {
+    background-color: white;
+    border-radius: 25px;
+    height: 90%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 10;
+  }
+
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .tag-container{
+    border: none;
+    width: 90%;
+    height: 40%;
+    border-radius: 30px;
+    background-color: #a7ff00;
+    position: relative;
+    left: 5%;
+    position: relative;
+  }
+
+  #p1{
+    position: absolute;
+    font-size: 65px;
+    text-align: center;
+    left: 7.5%;
+    top: 10%;
+  }
+
+  #p2{
+    position: absolute;
+    font-size: 100px;
+    text-align: center;
+    color: whitesmoke;
+    left: 10%;
+    top: 20%;
+    text-shadow: 1px 1px 5px black;
+    mix-blend-mode:difference;
+  }
+
+  @media (max-width: 768px) {
 .main-container{
-  /* border: 1px solid white; */
-  height: 100%;
-  width: 100%;
-  /* position: relative; */
-  overflow-y: hidden;
-  overflow-x: hidden;
-  white-space:nowrap;
+  gap: 80px;
 }
-
-.card-container{
-  /* border: 1px solid red; */
-  height: 75%;
-  width: 100%;
-  display: inline-block;
-  margin-right: 6%;
-  margin-top: 25px;
-}
-
-.card{
-  height: 60%;
-  width: 20%;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 7.5px;
-  position: relative;
-  display: inline-block;
-  animation-name: scroll;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  transform: scale(1.05);
-  margin-right: 1%;
-}
-
-.card-img{
-  background-image: url(/cardFrame.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 70%;
-  width: 95%;
-  position: absolute;
-  top: 10%;
-  left: 5%;
-  padding: 10px 22px 10px 22px;
-  /* border: 1px solid red; */
-}
-
-.card-img p{
-  position: absolute;
-  top: 7.5%;
-  height: 60%;
-  width: 80%;
-  font-size: 75%;
-  text-align: center;
-  /* border: 1px solid blue; */
-  /* overflow-x:hidden;
-  overflow-y: hidden; */
-  padding: 2px;
-  margin-left: 5px;
- 
-
-  /* border: 1px solid red; */
-}
-
-.card-img p::-webkit-scrollbar{
-  width: 2px;
-  background: #000;
-}
-
-.card-img p::-webkit-scrollbar-thumb{
-  background-color: white;
-}
-
-.card-lbl{
-  background-color: #a7ff00;
-  border-radius: 25px;
-  border: 2px solid black;
-  position: relative;
-  top: 80%;
-  height: 12.5%;
-  width: 75%;
-  left: 12.5%;
-}
-
-.tag{
-  position: absolute;
-  top: 5%;
-  left: 30%;
-  font-size: 150%;
-  text-align: center;
-  height: 90%;
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  /* border: 1px solid red; */
-}
-
-
-.icon {
-  background-color: white;
-  color: #012583;
-  border-radius: 25px;
-  height: 90%;
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid black;
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  z-index: 10;
-}
-
-
-@keyframes scroll {
-  from {
-    transform: translateX(0);
+  .card-container{
+    height: 195%;
+    
   }
-  to {
-    transform: translateX(-100%);
+    .card{
+      width: 50%;
+      height: 50%;
+      padding-bottom: 8px;
+    }
+    
+    .card-img {
+      background-size: cover; 
+
+      top: 5%; 
+    }
+
+    .card-img div {
+      font-size: 12px; 
+    }
+
+    .card-lbl {
+      font-size: 14px; 
+    }
+
+    .tag {
+      font-size: 10px; 
+    }
   }
-}
-
-.tag-container{
-  width: 90%;
-  height: 40%;
-  border-radius: 30px;
-  background-color: #a7ff00;
-  position: relative;
-  left: 5%;
-  position: relative;
-}
-
-#p1{
-  position: absolute;
-  /* border: 2px solid red; */
-  font-size: 65px;
-  text-align: center;
-  left: 7.5%;
-  top: 10%;
-}
-
-#p2{
-  position: absolute;
-  /* border: 2px solid yellow; */
-  font-size: 100px;
-  text-align: center;
-  color: whitesmoke;
-  left: 10%;
-  top: 20%;
-  text-shadow: 1px 1px 5px black;
-  mix-blend-mode:difference;
-}

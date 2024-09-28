@@ -3,6 +3,7 @@ import HeroSection from '../HeroSection'
 import HeroVideo from '../HeroVideo'
 import BrandService from '../BrandService'
 import Creativity from '../Creativity'
+import Carousel from '../Carousel'
 import StackCards from '../StackCards'
 import FullCarousel from '../FullCarousel'
 import PhoneSection from '../PhoneSection'
@@ -16,6 +17,7 @@ function Home() {
       <HeroSection/>
       <HeroVideo/>
       <BrandService/>
+      <Carousel/>
       <Creativity/>
       <StackCards/>
         <FullCarousel/>

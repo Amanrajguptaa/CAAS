@@ -4,7 +4,7 @@ import TypingWords from "./TypingWords.jsx";
 function Creativity() {
   const words = ["illegal", "違法", "अवैध", "غير قانوني"];
   return (
-    <div className="min-h-[900px] ">
+    <div className="min-h-[900px]  md:-mt-80 ">
       <div className="text-white h-auto">
         <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className=" relative">
@@ -26,11 +26,6 @@ function Creativity() {
             </div>
 
             <div className="flex mt-10 md:mt-16 border-[2px] border-white rounded-[30px] md:rounded-[50px] px-2 md:px-[80px] py-3 gap-[4px] md:gap-[20px]">
-              {/* {Array(6).fill(1).map((_, i) => (
-                <div key={i} className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center">
-                </div>
-              ))} */}
-
               <a href="#home">
                 <span className="bg-white rounded-full border-2 border-black h-12 w-12 md:h-13 md:w-13 flex justify-center items-center hover:bg-[#a7ff00] transorm transition-all duration-300">
                   <img className="h-1/2 md:h-1/2" src={`/Icon3.png`} alt="" />
