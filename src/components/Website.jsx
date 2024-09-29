@@ -81,14 +81,14 @@ function Website() {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <div className="w-[300px] md:w-full h-[270px] md:h-[400px] flex justify-center items-center px-1 md:px-10">
+                {/* <div className="w-[300px] md:w-full h-[270px] md:h-[400px] flex justify-center items-center px-1 md:px-10">
                   <iframe 
                     className="w-full h-full border-none"
                     src="https://caasf.vercel.app/"
                     title="Slide 1"
                     allowFullScreen
                   ></iframe>
-                </div> 
+                </div>  */}
               
                </Slider>
             </div>
