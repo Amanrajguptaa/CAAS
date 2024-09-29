@@ -3,12 +3,12 @@ import "./Ppt.css";
 import { Link } from "react-router-dom";
 function Ppt() {
   return (
-    <div id="ppt" className=" relative  sm:-mt-32 pb-96 z-30">
+    <div id="ppt" className=" relative  sm:-mt-36 pb-96 z-30">
       <div className="text-black">
         <section className="mx-2 md:mx-10 h-auto   bg-[#0038c7] relative  ">
           {/* Background Image */}
           <div className="relative overflow-hidden">
-            <img className="" src="/gridd.png" alt="" />
+            <img className="w-full" src="/gridd.png" alt="" />
           </div>
 
           <div className="absolute top-5 sm:top-44 flex flex-col ">

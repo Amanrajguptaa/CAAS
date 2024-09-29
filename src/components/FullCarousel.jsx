@@ -10,7 +10,7 @@ function FullCarousel() {
           {/* Background Image */}
           <div className="relative overflow-hidden">
             <img
-              className=""
+              className="w-full"
               src="/gridd.png"
               alt=""
             />

@@ -48,7 +48,7 @@ function Website() {
               
             </div>
 
-            <div className="absolute top-[85%]   md:top-[70%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+            <div className="absolute top-[85%]   md:top-[65%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
               
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
                 Websites
