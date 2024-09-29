@@ -16,7 +16,7 @@ function Carousel() {
               <div class="card-container">
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll   md:overflow-y-hidden overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] text-wrap overflow-y-scroll   md:overflow-y-hidden overflow-x-hidden">
                       The team exceeded my expectations with their creative
                       designs! They perfectly captured my brand's essence,
                       delivering stunning visuals that have helped elevate my
@@ -39,7 +39,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       Their graphic design services are top-notch! From concept
                       to execution, they delivered captivating designs that were
                       exactly what I needed for my new product launch
@@ -61,7 +61,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       Thanks to their expert social media marketing, our
                       engagement skyrocketed! We saw a significant boost in
                       followers, website traffic, and overall brand visibility.
@@ -86,7 +86,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       Their social media marketing services have been a
                       game-changer for our brand. With their targeted campaigns,
                       we’ve connected with the right audience, driving
@@ -109,7 +109,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       I’m impressed by how well they manage our social media
                       platforms. They consistently post engaging content,
                       respond to comments, and keep our online community active.
@@ -134,7 +134,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-wrap overflow-y-scroll md:overflow-y-hidden   overflow-x-hidden text-[2px] sm:text-[5px] md:text-xs ">
+                    <div className="text-wrap overflow-y-scroll md:overflow-y-hidden   overflow-x-hidden text-[2px] sm:text-[5px] md:text-[10px] px-0 ">
                       Their social media management is seamless! We can focus on
                       running the business while they handle posts,
                       interactions, and analytics. It’s made a huge difference
@@ -157,7 +157,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       Their digital marketing strategy has driven incredible
                       growth for our business. From SEO to PPC, every aspect of
                       our campaign was executed flawlessly, and the ROI speaks
@@ -182,7 +182,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       They transformed our online visibility with their digital
                       marketing expertise. We’ve seen substantial improvements
                       in lead generation and conversions thanks to their
@@ -205,7 +205,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       Their social media designs are eye-catching and aligned
                       with our brand identity. Every post is visually appealing
                       and draws attention, leading to increased engagement
@@ -230,7 +230,7 @@ function Carousel() {
 
                 <div class="card">
                   <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
+                    <div className="text-[2px] sm:text-[5px] md:text-[10px] px-0 text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
                       The social media designs they created for us are simply
                       fantastic! Each graphic is tailored to fit our brand and
                       campaigns, making our social media pages look professional
