@@ -62,7 +62,7 @@ function Website() {
               
             </div>
 
-          <div className='relative top-[10%] rounded-[25px] md:rounded-[20px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center'>
+          <div className='relative top-[10%] rounded-[10px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center'>
             <div className="w-full h-full flex justify-center items-center px-1">
               <Slider {...settings} className="w-full h-full flex justify-center items-center">
                  <div className="w-[300px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center px-0 md:px-0">
