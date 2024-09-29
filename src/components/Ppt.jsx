@@ -17,7 +17,7 @@ function Ppt() {
                 <div class=" card-even mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10"
-                    src="/ppt1.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631475/CAAS/ppt1_zcmjgw.jpg"
                     alt=""
                   />
                 </div>
@@ -25,7 +25,7 @@ function Ppt() {
                 <div class=" card-odd mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10"
-                    src="/ppt2.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631467/CAAS/ppt2_tw9umy.jpg"
                     alt=""
                   />
                 </div>
@@ -33,7 +33,7 @@ function Ppt() {
                 <div class=" card-even mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10"
-                    src="/ppt3.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631467/CAAS/ppt3_i32kqr.jpg"
                     alt=""
                   />
                 </div>
@@ -41,32 +41,13 @@ function Ppt() {
                 <div class=" card-odd mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10"
-                    src="/ppt4.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631468/CAAS/ppt4_ze903v.jpg"
                     alt=""
                   />
                 </div>
               </div>
 
-              <div class="card-container-01">
-                {/* <div class="card-even mr-[2px] md:mr-[3px]">
-      <img className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10" src="/ppt5.jpg" alt="" />
-    </div>
-
-    <div class="card-odd mr-[2px] md:mr-[3px]">
-    <img className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10" src="/ppt1.jpg" alt="" />
-
-    </div> */}
-
-                {/* <div class="card-even mr-[2px] md:mr-[3px]">
-    <img className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10" src="/ppt2.jpg" alt="" />
-
-    </div>
-
-    <div class="card-odd mr-[2px] md:mr-[3px] hidden md:visible ">
-    <img className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-10" src="/ppt3.jpg" alt="" />
-
-    </div> */}
-              </div>
+              <div class="card-container-01"></div>
             </div>
 
             <div class="tag text-sm md:text-auto">
@@ -81,7 +62,7 @@ function Ppt() {
                 <div class="card-odd mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]"
-                    src="/ppt6.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631469/CAAS/ppt6_ece6b1.jpg"
                     alt=""
                   />
                 </div>
@@ -89,7 +70,7 @@ function Ppt() {
                 <div class="card-even mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]"
-                    src="/ppt7.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631472/CAAS/ppt7_aamq1p.jpg"
                     alt=""
                   />
                 </div>
@@ -97,7 +78,7 @@ function Ppt() {
                 <div class="card-odd mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]"
-                    src="/ppt8.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631470/CAAS/ppt8_jjnw1s.jpg"
                     alt=""
                   />
                 </div>
@@ -105,33 +86,13 @@ function Ppt() {
                 <div class="card-even mr-[2px] md:mr-[3px]">
                   <img
                     className="object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]"
-                    src="/ppt9.jpg"
+                    src="https://res.cloudinary.com/dwwd1oncs/image/upload/v1727631491/CAAS/ppt9_q7lzyo.jpg"
                     alt=""
                   />
                 </div>
               </div>
 
-              <div class="card-container-02">
-                {/* <div class="card-odd md:mr-[3px] ">
-    <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt6.jpg" alt="" />
-
-    </div>
-
-    <div class="card-even md:mr-[3px]">
-    <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt7.jpg" alt="" />
-
-    </div> */}
-
-                {/* <div class="card-odd md:mr-[3px]">
-    <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt8.jpg" alt="" />
-
-    </div>
-
-    <div class="card-even md:mr-[3px]">
-    <img className='object-cover w-full h-full rounded-[3px] sm:rounded-xl mr-[2px] md:mr-[3px]' src="/ppt9.jpg" alt="" />
-
-    </div> */}
-              </div>
+              <div class="card-container-02"></div>
             </div>
           </div>
 

@@ -44,12 +44,11 @@ function PostCarousel() {
   return (
     <div className="h-auto mx-10 gap-24">
       <Slider {...settings}>
-        <Card index={1}/>
-        <Card index={2}/>
-        <Card index={3}/>
-        <Card index={4} />
-        <Card index={5}/>
-        <Card index={6}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631244/CAAS/carousel1_qrbt6h.mp4'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel2_m1uj8u.mp4'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel3_ile0xd.mp4'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel4_ydisdq.mp4'} />
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel5_qqujfw.mp4'}/>
         
       </Slider>
     </div>

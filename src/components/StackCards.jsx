@@ -32,7 +32,6 @@ function StackCards() {
   </svg>
 </button>
 </Link>
-            {/* <button className="  border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">Check’em All</button> */}
           </div>
         </section>
       </div>

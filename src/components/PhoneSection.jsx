@@ -74,7 +74,7 @@ function PhoneSection() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
-                  src="/video4.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631512/CAAS/video4_flbd2y.mp4"
                   autoPlay
                   loop
                   muted
@@ -91,7 +91,7 @@ function PhoneSection() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
-                  src="/video2.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -109,7 +109,7 @@ function PhoneSection() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631520/CAAS/video5_lmvhv6.mp4"
                   autoPlay
                   loop
                   muted
@@ -126,7 +126,7 @@ function PhoneSection() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
-                  src="/video3.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631518/CAAS/video3_s9a1a2.mp4"
                   autoPlay
                   loop
                   muted
@@ -144,7 +144,7 @@ function PhoneSection() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
-                  src="/hanumanVideo.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631248/CAAS/hanumanVideo_uud0a5.mp4"
                   autoPlay
                   loop
                   muted
