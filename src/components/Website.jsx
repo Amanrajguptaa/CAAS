@@ -20,7 +20,7 @@ function Website() {
           />
         </div>
         <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full px-10">
-        <div className="absolute top-[4%] md:top-[3%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full overflow-">
+        <div className="absolute top-[4%] md:top-[1%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full overflow-">
               
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
                 Websites
@@ -34,7 +34,7 @@ function Website() {
               
             </div>
 
-            <div className="absolute top-[45%] sm:top-[35%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+            <div className="absolute top-[45%] md:top-[37%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
              
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
                 Websites
@@ -48,7 +48,7 @@ function Website() {
               
             </div>
 
-            <div className="absolute top-[85%]   sm:top-[70%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
+            <div className="absolute top-[85%]   md:top-[70%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
               
               <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
                 Websites
@@ -62,10 +62,10 @@ function Website() {
               
             </div>
 
-          <div className='relative top-[10%] rounded-[25px] md:rounded-[50px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center'>
+          <div className='relative top-[10%] rounded-[25px] md:rounded-[20px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center'>
             <div className="w-full h-full flex justify-center items-center px-1">
               <Slider {...settings} className="w-full h-full flex justify-center items-center">
-                 <div className="w-[300px] md:w-full h-[270px] md:h-[400px] flex justify-center items-center px-1 md:px-10">
+                 <div className="w-[310px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center px-0 md:px-0">
                   <iframe 
                     className="w-full h-full border-none"
                     src="https://nishbworks.wixsite.com/my-site-2"
@@ -73,8 +73,8 @@ function Website() {
                     allowFullScreen
                   ></iframe>
                 </div>
-                <div className="w-[300px] md:w-full h-[270px] md:h-[400px] flex justify-center items-center px-1 md:px-10">
-                  <iframe 
+                <div className="w-[310px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center px-0 md:px-0">
+                <iframe 
                     className="w-full h-full border-none"
                     src="https://scribesavvy.com/elementor-11/"
                     title="Slide 1"
