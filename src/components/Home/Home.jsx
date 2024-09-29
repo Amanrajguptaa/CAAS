@@ -10,6 +10,7 @@ import PhoneSection from '../PhoneSection'
 import Ppt from '../Ppt'
 import Experience from '../Experience'
 import About from '../About'
+import Website from '../Website'
 
 function Home() {
   return (
@@ -20,8 +21,9 @@ function Home() {
       <Carousel/>
       <Creativity/>
       <StackCards/>
-        <FullCarousel/>
+      <FullCarousel/>
       <PhoneSection/>
+      <Website/>
       <Ppt/>
       <Experience/>
       <About/>
