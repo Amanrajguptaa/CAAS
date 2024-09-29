@@ -15,6 +15,7 @@ function FullCarousel() {
               alt=""
             />
           </div>
+          
 
           {/* Carousel Header */}
           <div className="absolute inset-0  flex  justify-start items-center -mt-16 md:-mt-0 overflow-hidden  ">

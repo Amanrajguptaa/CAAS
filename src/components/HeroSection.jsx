@@ -30,7 +30,7 @@ function HeroSection() {
               <img
                 src="/arrow.png"
                 alt="arrow"
-                className="w-[50px] sm:w-[80px] md:w-[150px]"
+                className="w-[50px] sm:w-[80px] md:w-[100px]"
               />
             </div>
             {/* <a href="#contact z-30">

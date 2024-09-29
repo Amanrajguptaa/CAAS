@@ -4,7 +4,7 @@ import TypingWords from "./TypingWords.jsx";
 function Creativity() {
   const words = ["illegal", "違法", "अवैध", "غير قانوني"];
   return (
-    <div className="min-h-[900px]  md:-mt-80 ">
+    <div className="min-h-[900px]  md:-mt-[400px] ">
       <div className="text-white h-auto">
         <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className=" relative">

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function StackCards() {
   return (
-    <div id="posts" className='h-auto z-20 -mt-20 sm:-mt-0'>
+    <div id="posts" className='h-auto z-20 -mt-20 sm:-mt-1'>
             <div className=" text-white h-auto">
         <section className=" mx-2 md:mx-10  min-h-[300px] bg-[rgb(0,56,199)] relative  ">
         <div className='relative'><img className=" min-h-[300px] border rounded-[50px]  border-none" src="/gridd.png" alt="" /></div>

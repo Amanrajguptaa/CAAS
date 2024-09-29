@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function PhoneSection() {
   return (
-    <div id="reels" className="h-auto -mt-28 sm:-mt-0  z-50">
+    <div id="reels" className="h-auto -mt-28 sm:-mt-5  z-50">
       <div className="text-white h-auto">
         <section className="mx-2 md:mx-10 min-h-[350px] bg-[#0038c7] relative ">
           <div className="relative">
@@ -73,7 +73,7 @@ function PhoneSection() {
               <div className="relative w-[60px] h-[120px] sm:w-[100px] sm:h-[200px] md:w-56 md:h-[440px] translate-x-2/3 z-4">
                 {/* Video as the background */}
                 <video
-                  className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
+                  className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
                   src="/video4.mp4"
                   autoPlay
                   loop
@@ -90,7 +90,7 @@ function PhoneSection() {
               <div className="relative w-[70px] h-[140px] sm:w-[120px] sm:h-[240px] md:w-64 md:h-[510px] translate-x-1/3 z-30">
                 {/* Video as the background */}
                 <video
-                  className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
+                  className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
                   src="/video2.mp4"
                   autoPlay
                   loop
@@ -108,7 +108,7 @@ function PhoneSection() {
               <div className="relative w-[80px] h-[160px] sm:w-[140px] sm:h-[280px] md:w-72 md:h-[570px] z-50">
                 {/* Video as the background */}
                 <video
-                  className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
+                  className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
                   src="/video5.mp4"
                   autoPlay
                   loop
@@ -125,7 +125,7 @@ function PhoneSection() {
               <div className="relative w-[70px] h-[140px] sm:w-[120px] sm:h-[240px] md:w-64 md:h-[510px] -translate-x-1/3 z-30">
                 {/* Video as the background */}
                 <video
-                  className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
+                  className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
                   src="/video3.mp4"
                   autoPlay
                   loop
@@ -143,7 +143,7 @@ function PhoneSection() {
               <div className="relative w-[60px] h-[120px] sm:w-[100px] sm:h-[200px] md:w-56 md:h-[450px] -translate-x-2/3 z-4">
                 {/* Video as the background */}
                 <video
-                  className="absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
+                  className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-xl  md:rounded-[50px] z-0"
                   src="/hanumanVideo.mp4"
                   autoPlay
                   loop
