@@ -8,7 +8,7 @@ function About() {
         <section className="mx-2 md:mx-10 min-h-[600px] sm:min-h-[900px] bg-[#0038c7] relative ">
           <div className="relative">
             <img
-              className="min-h-[600px] sm:min-h-[900px]"
+              className="min-h-[600px] sm:min-h-[900px] w-full"
               src="/gridd.png"
               alt=""
             />

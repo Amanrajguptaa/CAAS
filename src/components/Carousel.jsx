@@ -8,7 +8,7 @@ function Carousel() {
         <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative  ">
           {/* Background Image */}
           <div className="relative ">
-            <img className="" src="/gridd.png" alt="" />
+            <img className="w-full" src="/gridd.png" alt="" />
           </div>
 
           <div className="absolute inset-0 flex ">

@@ -6,7 +6,7 @@ function BrandService() {
       <div className="min-h-[400px] -mt-8 md:-mt-24 text-white">
         <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative">
           <div className="relative">
-            <img className="min-h-[400px]" src="/gridd.png" alt="" />
+            <img className="min-h-[400px] w-full" src="/gridd.png" alt="" />
           </div>
 
           <div className="absolute inset-0 top-16 md:top-12 flex flex-col justify-center items-center  mt-0 md:mt-40">
