@@ -67,9 +67,8 @@
     left: 0%;
     height: 60%;
     width: 95%;
-    text-align: center;
     padding: 2px;
-    margin-left: 5px;
+    margin-left: 10px;
     }
 
   .card-img p::-webkit-scrollbar{
