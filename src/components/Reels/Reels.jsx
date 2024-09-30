@@ -57,7 +57,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -73,7 +73,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -89,7 +89,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -105,7 +105,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -121,7 +121,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
@@ -137,7 +137,7 @@ function Reels() {
                 {/* Video as the background */}
                 <video
                   className="p-0.5 md:p-2 absolute inset-0 w-full h-full object-cover rounded-2xl md:rounded-[50px] z-0"
-                  src="/video5.mp4"
+                  src="https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"
                   autoPlay
                   loop
                   muted
