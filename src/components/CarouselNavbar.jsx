@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
-const Navbar = () => {
+const CarouselNavbar
+= () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
 
@@ -31,32 +32,23 @@ const Navbar = () => {
         <img src="/webLogo.png" alt="Logo" />
 
         <ul className="hidden md:flex space-x-6 text-white text-lg font-semibold border rounded-[50px] px-28 py-5 gap-5">
+        <Link to={'/'}>
+            <li>
+                Home
+            </li>
+          </Link>     
+            <li>
+              <a href="#AllCarousels" className="hover:text-lime-400">
+                Carousels
+              </a>
+            </li>
           <li>
             <a onClick={() => handleScroll('about')} className="hover:text-lime-400 cursor-pointer">
               About Us
             </a>
           </li>
-          <Link to={'/posts'}>
-            <li>
-              <a href="#posts" className="hover:text-lime-400">
-                Posts
-              </a>
-            </li>
-          </Link>
-          <Link to={'/carousels'}>
-            <li>
-              <a href="#carousels" className="hover:text-lime-400">
-                Carousels
-              </a>
-            </li>
-          </Link>
-          <Link to={'/reels'}>
-            <li>
-              <a href="#reels" className="hover:text-lime-400">
-                Reels
-              </a>
-            </li>
-          </Link>
+          
+          
           <li>
             <a onClick={() => handleScroll('contact')} className="hover:text-lime-400 cursor-pointer">
               Contact Us
@@ -109,24 +101,19 @@ const Navbar = () => {
           </button>
 
           <ul>
+          <Link to={'/'}>
             <li>
-              <a onClick={() => handleScroll('about')} className="hover:text-lime-400 cursor-pointer">
-                About Us
-              </a>
+                Home
             </li>
-            <li>
-              <a href="#posts" onClick={closeMenu} className="hover:text-lime-400">
-                Posts
-              </a>
-            </li>
-            <li>
-              <a href="#carousels" onClick={closeMenu} className="hover:text-lime-400">
+          </Link>
+          <li>
+              <a href="#AllCarousels" onClick={closeMenu} className="hover:text-lime-400">
                 Carousels
               </a>
             </li>
             <li>
-              <a href="#reels" onClick={closeMenu} className="hover:text-lime-400">
-                Reels
+              <a onClick={() => handleScroll('about')} className="hover:text-lime-400 cursor-pointer">
+                About Us
               </a>
             </li>
             <li>
@@ -141,4 +128,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default CarouselNavbar;

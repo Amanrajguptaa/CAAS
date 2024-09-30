@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../Navbar";
+import ReelNavbar from "../ReelNavbar";
 
 function Reels() {
   return (
-    <div>
-      <div id="home" className="text-white w-full py-5 z-20">
+    <div id="AllReels">
+      <div  className="text-white w-full py-5 z-20">
         <section className="mx-2 md:mx-10 h-auto  md:pb-0 rounded-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
           <div className="relative">
             <img
@@ -21,7 +21,7 @@ function Reels() {
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-            <Navbar className="w-full" />
+            <ReelNavbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
               <div className="text-[55px] sm:text-[120px] md:text-[150px]  font-brasika text-[#a7ff00]">

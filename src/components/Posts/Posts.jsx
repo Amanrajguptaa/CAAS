@@ -1,10 +1,11 @@
 import React from "react";
-import Navbar from "../Navbar.jsx";
-import Footer from "../Footer.jsx";
+import PostNavbar from "../PostNavbar.jsx";
+import { Element } from "react-scroll";
 function Posts() {
   return (
-    <div>
-      <div id="home" className="text-white w-full py-5 z-20">
+    <Element name='AllPost'>
+    <div id="AllPosts">
+      <div  className="text-white w-full py-5 z-20">
         <section className="mx-2 md:mx-10 h-auto md:h-[1200px] md:pb-0 rounded-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
           <div className="relative">
             <img
@@ -21,7 +22,7 @@ function Posts() {
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-            <Navbar className="w-full" />
+            <PostNavbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
               <div className="text-[55px] sm:text-[120px] md:text-[150px]  font-brasika text-[#a7ff00]">
@@ -204,6 +205,7 @@ function Posts() {
         </section>
       </div>
     </div>
+    </Element>
   );
 }
 

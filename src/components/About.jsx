@@ -1,8 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
-
+import { Element } from "react-scroll";
 function About() {
   return (
+    <Element name="about">
     <div id="about" className="h-auto -mt-0 md:-mt-1">
       <div className=" text-white h-auto">
         <section className="mx-2 md:mx-10 min-h-[600px] sm:min-h-[900px] bg-[#0038c7] relative ">
@@ -30,6 +31,7 @@ function About() {
         </section>
       </div>
     </div>
+    </Element>
   );
 }
 

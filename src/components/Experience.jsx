@@ -1,8 +1,9 @@
 import React from "react";
 import Form from "./Form";
-
+import { Element } from 'react-scroll';
 function Experience() {
   return (
+    <Element name="contact">
     <div id="contact" className="w-full -mt-[330px] sm:-mt-40 z-10 ">
       <div className="text-white">
         <section className="mx-2 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
@@ -124,6 +125,7 @@ function Experience() {
         </section>
       </div>
     </div>
+    </Element>
   );
 }
 
