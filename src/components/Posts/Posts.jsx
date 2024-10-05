@@ -129,6 +129,7 @@ function Posts() {
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108212/CAAS/POSTS/Aug_01_FB_qgl7cw.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108201/CAAS/POSTS/Post-7_Pasta_1_wkqz3w.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Prioritize_Self-Care_Today_and_Every_Day_IG_bb0drf.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/8_ovmruo.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Post_08_PH_l2y6lc.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108213/CAAS/POSTS/9_qnplcd.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Oct_Post_5_pntmsj.png'}/>
@@ -137,21 +138,20 @@ function Posts() {
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108204/CAAS/POSTS/Post_21_IG_x50ssg.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/6_buhh4c.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/12_avnwvu.png'}/>
-              <PostCard src={'/postdemo.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-6_DharamShala_McLeod_Ganj_pysm2f.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/Post-18_Funday_Friday_farcp9.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108208/CAAS/POSTS/Post09_kk37tj.png'}/>
-              <PostCard src={'/postdemo.png'}/>
-              <PostCard src={'/postdemo.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-8_Goa_noytv3.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post_8_fubzn6.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/Post_06_PH_jsynpm.png'}/>
-              <PostCard src={'/postdemo.png'}/>
-              <PostCard src={'/postdemo.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108212/CAAS/POSTS/Aug_01_FB_qgl7cw.png'}/>
-              <PostCard src={'/postdemo.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111409/CAAS/POSTS/posts2/Hapmton_Early_Learning___Child_Care_Centre_Post02_ldorfl.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/5_bo7rio.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112101/CAAS/POSTS/posts2/Post-16_mguluy.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112220/CAAS/POSTS/posts2/WhatsApp_Image_2024-10-05_at_11.47.27_5897fe8b_r0lwob.jpg'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108209/CAAS/POSTS/bluesky_daycare_02_rjgzjp.jpg'}/>
-              <PostCard src={'/postdemo.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108214/CAAS/POSTS/Post_27_edv3w4.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108213/CAAS/POSTS/9_qnplcd.png'}/>
-              <PostCard src={'/postdemo.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-15_qfeb69.png'}/>
+              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-6__Fries_and_Drinks_ynfy5b.png'}/>
 
               
              
