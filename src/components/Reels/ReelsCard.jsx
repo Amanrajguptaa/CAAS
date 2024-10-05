@@ -35,7 +35,7 @@ const ReelsCard = ({ src, placeholder }) => {
   }, [src]);
 
   return (
-    <div id={src} className="relative w-[125px] h-[250px] md:w-[285px] md:h-[570px] z-50">
+    <div id={src} className="relative w-[140px] h-[280px] md:w-[285px] md:h-[570px] z-50">
       {/* Blurry Placeholder */}
       {!videoLoaded && !videoError && !imageLoaded && (
         <img

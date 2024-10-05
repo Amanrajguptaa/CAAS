@@ -48,7 +48,7 @@ function CarouselPage() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8 my-20 px-2 md:px-0">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 my-20 px-2 md:px-0">
             <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631244/CAAS/carousel1_qrbt6h.mp4'}/>
         <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel2_m1uj8u.mp4'}/>
         <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel3_ile0xd.mp4'}/>

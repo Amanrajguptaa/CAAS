@@ -10,7 +10,7 @@ const CarouselCard = ({ src, altText = "Post Video" }) => {
 
   return (
     <div
-      className="p-1 relative h-40 w-40 md:h-64 md:w-64 border border-white rounded-lg bg-white flex justify-center items-center transition-all duration-150 ease-in-out"
+      className="p-1 relative h-[150px] w-[150px] md:h-64 md:w-64 border border-white rounded-lg bg-white flex justify-center items-center transition-all duration-150 ease-in-out"
       style={{
         boxShadow: "6px 6px 0px #a7ff00, 6px 0px 0px #a7ff00",
         overflow: "hidden",

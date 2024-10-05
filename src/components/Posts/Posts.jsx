@@ -73,7 +73,7 @@ function Posts() {
             </div>
             <div className="relative block md:hidden ">
               <img
-                className="min-h-[200px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
+                className="min-h-[300px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
                 src="/gridd.png"
                 alt="background"
               />
@@ -111,7 +111,7 @@ function Posts() {
                 </a>
               </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8 my-20 px-2 md:px-0">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 my-20 px-2 md:px-0">
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108221/CAAS/POSTS/Post_30_lhapxs.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post-4_Shimla_y4oqgj.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post_07_PH_iijbpq.png'}/>

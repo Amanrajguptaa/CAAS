@@ -15,7 +15,7 @@ function Reels() {
           </div>
           <div className="relative -mt-0.5">
             <img
-              className="min-h-[350px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
+              className="min-h-[400px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt="background"
             />
@@ -23,7 +23,7 @@ function Reels() {
           </div>
           <div className="relative -mt-0.5">
             <img
-              className="min-h-[350px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
+              className="min-h-[400px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt="background"
             />
@@ -31,7 +31,7 @@ function Reels() {
           </div>
           <div className="relative -mt-0.5 ">
             <img
-              className="min-h-[350px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
+              className="min-h-[400px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt="background"
             />
@@ -39,7 +39,7 @@ function Reels() {
           </div>
           <div className="relative -mt-0.5 ">
             <img
-              className="min-h-[350px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
+              className="min-h-[400px] md:h-[650px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
               src="/gridd.png"
               alt="background"
             />
@@ -84,11 +84,11 @@ function Reels() {
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124388/CAAS/reels/Physio_therapy_j9nubi.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124384/CAAS/reels/Myths_vs._Reality_1_hu01n9.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124377/CAAS/reels/Rings_Collection_1_liesiu.mp4"}/>
-              <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124371/CAAS/reels/admissions_open_3_qydszd.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124375/CAAS/reels/Ganesh_Ji_1_uyargm.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124377/CAAS/reels/MSc-IT_pwj6vy.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631523/CAAS/video2_g0yulw.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631518/CAAS/video3_s9a1a2.mp4"}/>
+              <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1728124371/CAAS/reels/admissions_open_3_qydszd.mp4"}/>
               <ReelsCard src={"https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631248/CAAS/hanumanVideo_uud0a5.mp4"}/>
             </div>
           </div>
