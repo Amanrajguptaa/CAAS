@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function PhoneSection() {
   return (
-    <div id="reels" className="h-auto -mt-28 sm:-mt-2 z-50">
+    <div id="reels" className="h-auto -mt-28 sm:-mt-2 z-0">
       <div className="text-white h-auto">
         <section className="mx-2 md:mx-10 min-h-[350px] md:min-h-[900px] bg-[#0038c7] relative">
           <div className="relative">
