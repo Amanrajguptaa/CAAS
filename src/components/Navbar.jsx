@@ -15,42 +15,63 @@ const Navbar = () => {
   };
 
   const handleScroll = (sectionId) => {
-    navigate('/'); 
+    navigate('/');
     setTimeout(() => {
       scroller.scrollTo(sectionId, {
         duration: 800,
         delay: 0,
         smooth: 'easeInOutQuart',
       });
-    }, 100); 
+    }, 100);
   };
 
   return (
     <nav className="w-full px-20 py-10">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to={'/'}><img src="/webLogo.png" alt="Logo" /></Link>
+        <Link to={'/'}>
+          <img src="/webLogo.png" alt="Logo" />
+        </Link>
 
+        {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-white text-lg font-semibold border rounded-[50px] px-28 py-5 gap-5">
           <li>
-            <a onClick={() => handleScroll('about')} className="hover:text-lime-400 cursor-pointer">
+            <a
+              onClick={() => handleScroll('about')}
+              className="hover:text-lime-400 cursor-pointer"
+            >
               About Us
             </a>
           </li>
-          <NavLink to="/posts" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
-          <li>
+          <NavLink
+            to="/posts"
+            className={({ isActive }) =>
+              `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+            }
+          >
+            <li>
               <a href="#posts" className="hover:text-lime-400">
                 Posts
               </a>
             </li>
           </NavLink>
-          <NavLink to="/carousels" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
+          <NavLink
+            to="/carousels"
+            className={({ isActive }) =>
+              `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+            }
+          >
             <li>
               <a href="#carousels" className="hover:text-lime-400">
                 Carousels
               </a>
             </li>
           </NavLink>
-          <NavLink to="/reels" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
+          <NavLink
+            to="/reels"
+            className={({ isActive }) =>
+              `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+            }
+          >
             <li>
               <a href="#reels" className="hover:text-lime-400">
                 Reels
@@ -58,12 +79,16 @@ const Navbar = () => {
             </li>
           </NavLink>
           <li>
-            <a onClick={() => handleScroll('contact')} className="hover:text-lime-400 cursor-pointer">
+            <a
+              onClick={() => handleScroll('contact')}
+              className="hover:text-lime-400 cursor-pointer"
+            >
               Contact Us
             </a>
           </li>
         </ul>
 
+        {/* Mobile Menu Toggle Button */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white">
             {!isMenuOpen ? (
@@ -86,8 +111,9 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="z-[100] md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-80 flex flex-col items-center justify-center space-y-4 text-white text-lg font-semibold ">
+        <div className="z-[100] md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-80 flex flex-col items-center justify-center space-y-4 text-white text-lg font-semibold">
           <button
             onClick={closeMenu}
             className="absolute top-5 right-5 text-white z-30"
@@ -108,29 +134,66 @@ const Navbar = () => {
             </svg>
           </button>
 
+          {/* Mobile Links */}
           <ul>
             <li>
-              <a onClick={() => handleScroll('about')} className="hover:text-lime-400 cursor-pointer">
+              <a
+                onClick={() => {
+                  handleScroll('about');
+                  closeMenu();
+                }}
+                className="hover:text-lime-400 cursor-pointer"
+              >
                 About Us
               </a>
             </li>
+            <NavLink
+              to="/posts"
+              className={({ isActive }) =>
+                `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+              }
+              onClick={closeMenu}
+            >
+              <li>
+                <a href="#posts" className="hover:text-lime-400">
+                  Posts
+                </a>
+              </li>
+            </NavLink>
+            <NavLink
+              to="/carousels"
+              className={({ isActive }) =>
+                `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+              }
+              onClick={closeMenu}
+            >
+              <li>
+                <a href="#carousels" className="hover:text-lime-400">
+                  Carousels
+                </a>
+              </li>
+            </NavLink>
+            <NavLink
+              to="/reels"
+              className={({ isActive }) =>
+                `${isActive ? 'text-[#a7ff00]' : 'text-white'}`
+              }
+              onClick={closeMenu}
+            >
+              <li>
+                <a href="#reels" className="hover:text-lime-400">
+                  Reels
+                </a>
+              </li>
+            </NavLink>
             <li>
-              <a href="#posts" onClick={closeMenu} className="hover:text-lime-400">
-                Posts
-              </a>
-            </li>
-            <li>
-              <a href="#carousels" onClick={closeMenu} className="hover:text-lime-400">
-                Carousels
-              </a>
-            </li>
-            <li>
-              <a href="#reels" onClick={closeMenu} className="hover:text-lime-400">
-                Reels
-              </a>
-            </li>
-            <li>
-              <a onClick={() => handleScroll('contact')} className="hover:text-lime-400 cursor-pointer">
+              <a
+                onClick={() => {
+                  handleScroll('contact');
+                  closeMenu();
+                }}
+                className="hover:text-lime-400 cursor-pointer"
+              >
                 Contact Us
               </a>
             </li>
