@@ -9,7 +9,7 @@ function Footer() {
           <div className="flex gap-3 sm:gap-5">
             {" "}
             <svg
-              className="h-2/5 sm:h-2/3"
+              className="h-5 sm:h-6"
               fill="#000000"
               viewBox="0 0 1920 1920"
               xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ function Footer() {
               </g>
             </svg>
             <svg
-                      className="h-2/5 sm:h-2/3"
+                      className="h-5 sm:h-6"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ function Footer() {
                       </g>
                     </svg>
                     <svg
-                      className="h-2/5 sm:h-2/3 "
+                      className="h-5 sm:h-6 "
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
