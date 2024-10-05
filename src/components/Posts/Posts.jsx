@@ -122,7 +122,6 @@ function Posts() {
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108202/CAAS/POSTS/Post-2_Sandwich_nbaduf.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108227/CAAS/POSTS/7_wtocnc.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108217/CAAS/POSTS/Post_04_PH_zr8tyl.png'}/>
-
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108205/CAAS/POSTS/12_1_dmd4lp.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108218/CAAS/POSTS/Post_28_csn3ey.png'}/>
               <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/v1728108203/CAAS/POSTS/Post-1_Hero_Post_ldoer9.png'}/>
