@@ -1,6 +1,5 @@
 import React from "react";
 import Navbar from "../Navbar.jsx";
-import CarouselNavbar from "../CarouselNavbar.jsx";
 function CarouselPage() {
   return (
     <div>
@@ -21,7 +20,7 @@ function CarouselPage() {
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-            <CarouselNavbar className="w-full" />
+            <Navbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
               <div className="text-[40px] sm:text-[100px]  font-brasika text-[#a7ff00]">

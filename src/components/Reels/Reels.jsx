@@ -1,6 +1,5 @@
 import React from "react";
-import ReelNavbar from "../ReelNavbar";
-
+import Navbar from '../Navbar.jsx'
 function Reels() {
   return (
     <div id="AllReels">
@@ -21,7 +20,7 @@ function Reels() {
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-            <ReelNavbar className="w-full" />
+            <Navbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
               <div className="text-[55px] sm:text-[120px] md:text-[150px]  font-brasika text-[#a7ff00]">

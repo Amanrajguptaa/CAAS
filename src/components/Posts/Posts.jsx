@@ -1,5 +1,5 @@
 import React from "react";
-import PostNavbar from "../PostNavbar.jsx";
+import Navbar from "../Navbar.jsx";
 import { Element } from "react-scroll";
 function Posts() {
   return (
@@ -22,7 +22,7 @@ function Posts() {
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-            <PostNavbar className="w-full" />
+            <Navbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
               <div className="text-[55px] sm:text-[120px] md:text-[150px]  font-brasika text-[#a7ff00]">

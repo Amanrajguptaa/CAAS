@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <nav className="w-full px-20 py-10">
       <div className="container mx-auto flex justify-between items-center">
-        <img src="/webLogo.png" alt="Logo" />
+        <Link to={'/'}><img src="/webLogo.png" alt="Logo" /></Link>
 
         <ul className="hidden md:flex space-x-6 text-white text-lg font-semibold border rounded-[50px] px-28 py-5 gap-5">
           <li>
@@ -36,27 +36,27 @@ const Navbar = () => {
               About Us
             </a>
           </li>
-          <Link to={'/posts'}>
-            <li>
+          <NavLink to="/posts" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
+          <li>
               <a href="#posts" className="hover:text-lime-400">
                 Posts
               </a>
             </li>
-          </Link>
-          <Link to={'/carousels'}>
+          </NavLink>
+          <NavLink to="/carousels" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
             <li>
               <a href="#carousels" className="hover:text-lime-400">
                 Carousels
               </a>
             </li>
-          </Link>
-          <Link to={'/reels'}>
+          </NavLink>
+          <NavLink to="/reels" className={({isActive}) => `${isActive ? "text-[#a7ff00]" : "text-white"}` }>                  
             <li>
               <a href="#reels" className="hover:text-lime-400">
                 Reels
               </a>
             </li>
-          </Link>
+          </NavLink>
           <li>
             <a onClick={() => handleScroll('contact')} className="hover:text-lime-400 cursor-pointer">
               Contact Us
