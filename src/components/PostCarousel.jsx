@@ -22,7 +22,6 @@ function PostCarousel() {
           dots: true,
         },
       },
-      
       {
         breakpoint: 800,
         settings: {
@@ -44,12 +43,11 @@ function PostCarousel() {
   return (
     <div className="h-auto mx-10 gap-24">
       <Slider {...settings}>
-        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631244/CAAS/carousel1_qrbt6h.mp4'}/>
-        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel2_m1uj8u.mp4'}/>
-        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel3_ile0xd.mp4'}/>
-        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel4_ydisdq.mp4'} />
-        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel5_qqujfw.mp4'}/>
-        
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631244/CAAS/carousel1_qrbt6h.webm'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631245/CAAS/carousel2_m1uj8u.webm'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631246/CAAS/carousel3_ile0xd.webm'}/>
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631246/CAAS/carousel4_ydisdq.webm'} />
+        <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631245/CAAS/carousel5_qqujfw.webm'}/>
       </Slider>
     </div>
   );
