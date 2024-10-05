@@ -44,7 +44,7 @@ function FullCarousel() {
             </div>
             {/* <button className="  px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black transition duration-300 ease-in-out transform hover:border-blue-500 hover:scale-105">Check’em All</button> */}
             <Link to={'/carousels'}>
-            <button className="group z-30 mt-[700px] sm:mt-[700px] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
+            <button className="group z-100 mt-[700px] sm:mt-[700px] px-12 py-2 border-[2px] border-[#a7ff00] rounded-3xl bg-white text-black flex items-center justify-center space-x-2 transform transition-all duration-200 hover:scale-105 hover:bg-black hover:text-[#a7ff00]">
              
             <span>Check’em All</span>
             <svg
