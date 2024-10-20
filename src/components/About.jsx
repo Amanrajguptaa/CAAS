@@ -18,7 +18,7 @@ function About() {
           <div className="absolute inset-0 top-5 sm:top-20 flex flex-col justify-start  items-center text-black ">
             <div className="text-center">
               <div className="font-brasika text-3xl sm:text-6xl md:text-8xl text-white">you may be thinkin</div>
-              <div className="font-brasika text-3xl sm:text-6xl md:text-8xl text-white">who the <span className="text-lime-500">hell</span> we are?</div>
+              <div className="font-brasika text-3xl sm:text-6xl md:text-8xl text-white"><span className="text-lime-500">who</span> we are?</div>
             </div>
             <div className="relative ml-28 sm:ml-32 mt-5 pb-0 sm:pb-10">
                 <div className="bg-lime-500 rounded-xl border-[2px] border-black h-28 w-40 sm:h-40 sm:w-80 absolute top-20 -left-[100px] sm:-left-52 -z-1 text-md sm:text-4xl p-2 sm:p-5">we are the providers <br/>of <span className="text-white">CaaS</span></div>

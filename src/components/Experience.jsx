@@ -31,6 +31,7 @@ function Experience() {
                   a service <span className="text-black">?</span>
                 </div>
                 <div className="flex justify-between items-center mt-8 border-[2px] bg-blue-600 border-blue-600 rounded-[50px] py-1 px-3 sm:py-2 sm:px-5 w-28 sm:w-48 md:w-80">
+                  <a href="mailto:wordpress@creativityaas.com" target="_blank">
                   <span className="flex justify-center items-center bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-10 sm:w-10 md:h-12 md:w-12">
                     <svg
                       className="h-2/3"
@@ -53,6 +54,7 @@ function Experience() {
                       </g>
                     </svg>
                   </span>
+                  </a>
                   <span className="bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-10 sm:w-10 md:h-12 md:w-12 flex justify-center items-center">
                   <svg
               className="h-1/2 md:h-3/5 "
@@ -75,6 +77,7 @@ function Experience() {
               </g>
             </svg>
                   </span>
+                  <a href="https://api.whatsapp.com/send/?phone=916289055015&text&type=phone_number&app_absent=0" target="_blank">
                   <span className="bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-8 sm:w-8 md:h-12 md:w-12 flex justify-center items-center">
                     <svg
                       className="h-2/3"
@@ -103,6 +106,7 @@ function Experience() {
                       </g>
                     </svg>
                   </span>
+                  </a>
                 </div>
               </div>
               <Form />

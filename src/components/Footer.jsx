@@ -8,6 +8,7 @@ function Footer() {
           <img className="" src="/webLogo.png" alt="" srcset="" />
           <div className="flex gap-3 sm:gap-5">
             {" "}
+            <a href="mailto:wordpress@creativityaas.com" target="_blank">
             <svg
               className="h-5 sm:h-6"
               fill="#000000"
@@ -28,6 +29,7 @@ function Footer() {
                 ></path>{" "}
               </g>
             </svg>
+            </a>
             <svg
               className="h-5 sm:h-6 "
               fill="#000000"
@@ -48,6 +50,7 @@ function Footer() {
                 ></path>{" "}
               </g>
             </svg>
+            <a href="https://api.whatsapp.com/send/?phone=916289055015&text&type=phone_number&app_absent=0" target="_blank">
             <svg
               className="h-5 sm:h-6 "
               viewBox="0 0 24 24"
@@ -74,6 +77,7 @@ function Footer() {
                 ></path>{" "}
               </g>
             </svg>
+            </a>
           </div>
         </div>
         <div className="flex space-x-10">
