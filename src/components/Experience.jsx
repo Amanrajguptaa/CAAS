@@ -1,37 +1,27 @@
 import React from "react";
 import Form from "./Form";
-import { Element } from 'react-scroll';
+import { Element } from "react-scroll";
 function Experience() {
   return (
     <Element name="contact">
-    <div id="contact" className="w-full -mt-[330px] sm:-mt-40 z-10 ">
-      <div className="text-white">
-        <section className="mx-2 md:mx-10 bg-[#0038c7] relative min-h-[350px]">
-          <div className="relative">
-            <img
-              className="border rounded-[50px] border-none w-full min-h-[350px]"
-              src="/gridd.png"
-              alt=""
-            />
-          </div>
-
-          <div className="absolute inset-0 flex flex-col top-24 sm:top-20  md:top-60 items-center px-5">
-            <div className="bg-white text-black flex gap-2 md:gap-40 min-h-[200px] w-full rounded-3xl px-5 md:px-12  py-3  sm:py-10 md:py-20">
-              <div className="flex flex-col justify-center sm:ml-20 ">
-                <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
-                  want to
-                </div>
-                <div className="font-brasika text-md sm:text-5xl md:text-6xl ">
-                  experience
-                </div>
-                <div className="font-brasika text-md sm:text-5xl md:text-[50px]  text-blue-600">
-                  creativity as
-                </div>
-                <div className="font-brasika text-md sm:text-5xl md:text-6xl  text-blue-600">
-                  a service <span className="text-black">?</span>
-                </div>
-                <div className="flex justify-between items-center mt-8 border-[2px] bg-blue-600 border-blue-600 rounded-[50px] py-1 px-3 sm:py-2 sm:px-5 w-28 sm:w-48 md:w-80">
-                  <a href="mailto:wordpress@creativityaas.com" target="_blank">
+      <div id="contact" className="w-full ">
+        <div className="flex flex-col items-center px-5 py-20">
+          <div className="bg-white text-black flex justify-center items-center gap-2 md:gap-10 min-h-[200px] w-full rounded-3xl px-5 md:px-12  py-3  sm:py-10 md:py-20">
+            <div className="hidden md:flex flex-col justify-center md:mr-10">
+              <div className="font-brasika text-md md:text-3xl lg:text-5xl xl:text-7xl ">
+                want to
+              </div>
+              <div className="font-brasika text-md md:text-3xl lg:text-5xl xl:text-7xl ">
+                experience
+              </div>
+              <div className="font-brasika text-md md:text-3xl lg:text-5xl xl:text-[60px]  text-blue-600">
+                creativity as
+              </div>
+              <div className="font-brasika text-md md:text-3xl lg:text-5xl xl:text-6xl  text-blue-600">
+                a service <span className="text-black">?</span>
+              </div>
+              <div className="flex justify-between items-center mt-8 border-[2px] bg-blue-600 border-blue-600 rounded-[50px] py-1 px-3 sm:py-2 sm:px-5 w-28 sm:w-48 md:w-80">
+                <a href="mailto:wordpress@creativityaas.com" target="_blank">
                   <span className="flex justify-center items-center bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-10 sm:w-10 md:h-12 md:w-12">
                     <svg
                       className="h-2/3"
@@ -54,30 +44,33 @@ function Experience() {
                       </g>
                     </svg>
                   </span>
-                  </a>
-                  <span className="bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-10 sm:w-10 md:h-12 md:w-12 flex justify-center items-center">
+                </a>
+                <span className="bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-10 sm:w-10 md:h-12 md:w-12 flex justify-center items-center">
                   <svg
-              className="h-1/2 md:h-3/5 "
-              fill="#000000"
-              viewBox="0 0 1920 1920"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                {" "}
-                <path
-                  d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z"
-                  fill-rule="evenodd"
-                ></path>{" "}
-              </g>
-            </svg>
-                  </span>
-                  <a href="https://api.whatsapp.com/send/?phone=916289055015&text&type=phone_number&app_absent=0" target="_blank">
+                    className="h-1/2 md:h-3/5 "
+                    fill="#000000"
+                    viewBox="0 0 1920 1920"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      {" "}
+                      <path
+                        d="M1168 601.321v74.955c72.312-44.925 155.796-71.11 282.643-71.11 412.852 0 465.705 308.588 465.705 577.417v733.213L1438.991 1920v-701.261c0-117.718-42.162-140.06-120.12-140.06-74.114 0-120.12 23.423-120.12 140.06V1920l-483.604-4.204V601.32H1168Zm-687.52-.792v1318.918H0V600.53h480.48Zm-120.12 120.12H120.12v1078.678h240.24V720.65Zm687.52.792H835.267v1075.316l243.364 2.162v-580.18c0-226.427 150.51-260.18 240.24-260.18 109.55 0 240.24 45.165 240.24 260.18v580.18l237.117-2.162v-614.174c0-333.334-93.573-457.298-345.585-457.298-151.472 0-217.057 44.925-281.322 98.98l-16.696 14.173H1047.88V721.441ZM240.24 0c132.493 0 240.24 107.748 240.24 240.24 0 132.493-107.747 240.24-240.24 240.24C107.748 480.48 0 372.733 0 240.24 0 107.748 107.748 0 240.24 0Zm0 120.12c-66.186 0-120.12 53.934-120.12 120.12s53.934 120.12 120.12 120.12 120.12-53.934 120.12-120.12-53.934-120.12-120.12-120.12Z"
+                        fill-rule="evenodd"
+                      ></path>{" "}
+                    </g>
+                  </svg>
+                </span>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=916289055015&text&type=phone_number&app_absent=0"
+                  target="_blank"
+                >
                   <span className="bg-white rounded-full border-2 border-[#a7ff00] h-5 w-5 sm:h-8 sm:w-8 md:h-12 md:w-12 flex justify-center items-center">
                     <svg
                       className="h-2/3"
@@ -106,17 +99,14 @@ function Experience() {
                       </g>
                     </svg>
                   </span>
-                  </a>
-                </div>
+                </a>
               </div>
-              <Form />
-              {/* <div className="bg-lime-500 h-[180px] sm:h-[300px] md:h-[350px] w-[40%] md:w-[30%] rounded-xl border-[2px] border-black mt-5 md:mt-0"> */}
-              {/* </div> */}
             </div>
+            <Form />
+            
           </div>
-        </section>
+        </div>
       </div>
-    </div>
     </Element>
   );
 }

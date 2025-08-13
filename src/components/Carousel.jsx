@@ -1,262 +1,80 @@
 import React from "react";
 import "./Carousel.css";
 
-function Carousel() {
+const testimonials = [
+  {
+    text: "The team exceeded my expectations with their creative designs! They perfectly captured my brand's essence...",
+    name: "Coffea",
+  },
+  {
+    text: "Their graphic design services are top-notch! From concept to execution, they delivered captivating designs...",
+    name: "Priya K",
+  },
+  {
+    text: "Thanks to their expert social media marketing, our engagement skyrocketed! Significant boost in followers...",
+    name: "Travel Today",
+  },
+  {
+    text: "Their social media marketing services have been a game-changer for our brand...",
+    name: "Vikram D",
+  },
+  {
+    text: "I’m impressed by how well they manage our social media platforms. Engaging content and active community...",
+    name: "Smile Hospital",
+  },
+  {
+    text: "Their social media management is seamless! We can focus on running the business...",
+    name: "Rajiv T",
+  },
+  {
+    text: "Their digital marketing strategy has driven incredible growth for our business...",
+    name: "Rana Hospital",
+  },
+  {
+    text: "They transformed our online visibility with their digital marketing expertise...",
+    name: "Amit P",
+  },
+  {
+    text: "Their social media designs are eye-catching and aligned with our brand identity...",
+    name: "Blacksoft Solution",
+  },
+  {
+    text: "The social media designs they created for us are simply fantastic!",
+    name: "Karan J",
+  },
+];
+
+export default function Carousel() {
   return (
-    <div className="relative  ">
-      <div className="text-[2px] sm:text-[5px] md:text-[10px] ">
-        <section className="mx-2 md:mx-10 h-auto bg-[#0038c7] relative  ">
-          {/* Background Image */}
-          <div className="relative ">
-            <img className="w-full" src="/gridd.png" alt="" />
-          </div>
+    <div
+      className="pb-12 md:pb-20 overflow-hidden relative"
+     
+    >
+      <div className="carousel-track flex animate-carousel gap-5">
+        {[...testimonials, ...testimonials].map((item, index) => (
+          <div
+            key={index}
+            className="relative min-w-[200px] sm:min-w-[300px] border border-black rounded-lg shadow overflow-hidden bg-white text-black py-5 md:py-10"
+          >
+            <img
+              src="/cardFrame.png"
+              alt="card_frame"
+              className="w-[90%] pointer-events-none select-none mx-auto"
+            />
 
-          <div className="absolute inset-0 flex ">
-            <div class="main-container ">
-              <div class="card-container">
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll   md:overflow-y-hidden overflow-x-hidden">
-                      The team exceeded my expectations with their creative
-                      designs! They perfectly captured my brand's essence,
-                      delivering stunning visuals that have helped elevate my
-                      business presence. I couldn’t be happier with the results
-                    </div>
-                  </div>
+            <div className="absolute top-10 md:top-14 md:left-8 md:right-6 lg:top-16 left-5 lg:left-10 lg:right-10 text-xs sm:text-sm md:text-base overflow-y-auto lg:overflow-y-hidden">
+              {item.text}
+            </div>
 
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="22.5px"
-                        width="22.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Coffea</span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      Their graphic design services are top-notch! From concept
-                      to execution, they delivered captivating designs that were
-                      exactly what I needed for my new product launch
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Priya K</span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      Thanks to their expert social media marketing, our
-                      engagement skyrocketed! We saw a significant boost in
-                      followers, website traffic, and overall brand visibility.
-                      Their strategic approach truly works
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm ">
-                      Travel Today
-                    </span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      Their social media marketing services have been a
-                      game-changer for our brand. With their targeted campaigns,
-                      we’ve connected with the right audience, driving
-                      measurable results in just a few months!
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Vikram D</span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      I’m impressed by how well they manage our social media
-                      platforms. They consistently post engaging content,
-                      respond to comments, and keep our online community active.
-                      It’s such a relief to have them handle everything
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">
-                      Smile Hospital
-                    </span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-wrap overflow-y-scroll md:overflow-y-hidden   overflow-x-hidden text-[2px] sm:text-[5px] md:text-xs ">
-                      Their social media management is seamless! We can focus on
-                      running the business while they handle posts,
-                      interactions, and analytics. It’s made a huge difference
-                      in our online presence
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Rajiv T</span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      Their digital marketing strategy has driven incredible
-                      growth for our business. From SEO to PPC, every aspect of
-                      our campaign was executed flawlessly, and the ROI speaks
-                      for itself!
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">
-                      Rana Hospital
-                    </span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      They transformed our online visibility with their digital
-                      marketing expertise. We’ve seen substantial improvements
-                      in lead generation and conversions thanks to their
-                      well-rounded approach
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Amit P</span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      Their social media designs are eye-catching and aligned
-                      with our brand identity. Every post is visually appealing
-                      and draws attention, leading to increased engagement
-                      across our platforms
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">
-                      Blacksoft Solution
-                    </span>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-img">
-                    <div className="text-[2px] sm:text-[5px] md:text-xs text-wrap overflow-y-scroll md:overflow-y-hidden  overflow-x-hidden">
-                      The social media designs they created for us are simply
-                      fantastic! Each graphic is tailored to fit our brand and
-                      campaigns, making our social media pages look professional
-                      and inviting
-                    </div>
-                  </div>
-
-                  <div class="card-lbl">
-                    <span class="icon">
-                      <img
-                        src="/star.png"
-                        alt=""
-                        height="17.5px"
-                        width="17.5px"
-                      />
-                    </span>
-                    <span class="tag border-none md:text-sm  ">Karan J</span>
-                  </div>
-                </div>
+            <div className="flex items-center justify-start gap-2 bg-[#a7ff00] border-2 border-black rounded-full px-3 py-1 mt-6 w-[80%] mx-auto">
+              <div className="bg-white border-2 border-black rounded-full p-1">
+                <img src="/star.png" alt="star" className="h-4 w-4" />
               </div>
+              <span className="text-xs sm:text-sm">{item.name}</span>
             </div>
           </div>
-        </section>
+        ))}
       </div>
     </div>
   );
 }
-
-export default Carousel;

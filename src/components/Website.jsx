@@ -1,100 +1,74 @@
-import React from 'react';
+import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-var settings = {
-    slidesToShow: 1,
-    slidesToScroll: 1,
+const sliderSettings = {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite: true,
+  arrows: true,
+  dots: false,
 };
+
+const TitleStrip = ({ top }) => (
+  <div
+    className={`absolute ${top} bg-[#a7ff00] text-black py-5 flex items-center justify-center border-[2px] border-black w-full overflow-hidden`}
+  >
+    {Array(3)
+      .fill("Websites")
+      .map((text, i) => (
+        <span
+          key={i}
+          className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20"
+        >
+          {text}
+        </span>
+      ))}
+  </div>
+);
+
+const websites = [
+  { url: "https://www.smilehospital.in", title: "Smile Hospital" },
+  { url: "https://www.kidfortchildcare.ca", title: "Kid Fort" },
+  { url: "https://www.happyfacessherwoodpark.ca", title: "Happy faces" },
+  { url: "https://scribesavvy.com/elementor-11", title: "scribesavvy" },
+  { url: "https://skipper-ui-portfolio.vercel.app", title: "Portfolio" },
+  { url: "https://theseeddaycare.ca", title: "Seed Day" },
+  { url: "https://orionplastics.com", title: "Orion" },
+];
 
 function Website() {
   return (
-    <div className=''>
-      <section className="mx-2 md:mx-10 -my-5 md:-my-1 bg-[#0038c7] relative ">
-        <div className="relative">
-          <img
-            className="min-h-96 rounded-[30px] md:rounded-[50px] border-none w-full"
-            src="/gridd.png"
-            alt="background"
-          />
+    <div className="py-10 lg:pt-12 md:pb-40 relative">
+      <div className="flex flex-col items-center justify-start text-center w-full px-10 mt-32">
+        {/* Title strips */}
+        <TitleStrip top="top-[14%] md:top-[10%]" />
+        <TitleStrip top="top-[42%] md:top-[52%]" />
+        <TitleStrip top="top-[89%] md:top-[80%]" />
+
+        {/* Slider container */}
+        <div className="relative -mt-12 md:-mt-0 rounded-[10px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center shadow-lg">
+          <Slider
+            {...sliderSettings}
+            className="w-full h-full flex justify-center items-center"
+          >
+            {websites.map((site, index) => (
+              <div
+                key={index}
+                className="w-[280px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center"
+              >
+                <iframe
+                  className="w-full h-full border-none"
+                  src={site.url}
+                  title={site.title}
+                  allowFullScreen
+                ></iframe>
+              </div>
+            ))}
+          </Slider>
         </div>
-        <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full px-10">
-        <div className="absolute top-[4%] md:top-[1%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full overflow-">
-              
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              
-            </div>
-
-            <div className="absolute top-[45%] md:top-[37%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
-             
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-24">
-                Websites
-              </span>
-              
-            </div>
-
-            <div className="absolute top-[85%]   md:top-[70%] bg-[#a7ff00] text-black py-2 md:py-5 flex items-center justify-center border-[2px] border-black w-full">
-              
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-20">
-                Websites
-              </span>
-              <span className="text-black font-brasika text-xs sm:text-3xl md:text-6xl mr-8 md:mr-24">
-                Websites
-              </span>
-              
-            </div>
-
-          <div className='relative top-[10%] rounded-[10px] w-[320px] md:w-full h-[300px] md:h-[500px] bg-white flex justify-center items-center'>
-            <div className="w-full h-full flex justify-center items-center px-1">
-              <Slider {...settings} className="w-full h-full flex justify-center items-center">
-                 <div className="w-[280px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center px-0 md:px-0">
-                  <iframe 
-                    className="w-full h-full border-none"
-                    src="https://nishbworks.wixsite.com/my-site-2"
-                    title="Slide 1"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                <div className="w-[280px] md:w-full h-[270px] md:h-[470px] flex justify-center items-center px-0 md:px-0">
-                <iframe 
-                    className="w-full h-full border-none"
-                    src="https://scribesavvy.com/elementor-11/"
-                    title="Slide 1"
-                    allowFullScreen
-                  ></iframe>
-                </div>
-                {/* <div className="w-[300px] md:w-full h-[270px] md:h-[400px] flex justify-center items-center px-1 md:px-10">
-                  <iframe 
-                    className="w-full h-full border-none"
-                    src="https://caasf.vercel.app/"
-                    title="Slide 1"
-                    allowFullScreen
-                  ></iframe>
-                </div>  */}
-              
-               </Slider>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
     </div>
   );
 }
