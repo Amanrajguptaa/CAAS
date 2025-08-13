@@ -14,6 +14,15 @@ function PostCarousel() {
     initialSlide: 0,
     responsive: [
       {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -27,13 +36,22 @@ function PostCarousel() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 1,
         },
       },
       {
         breakpoint: 360,
         settings: {
-          slidesToShow: 2, // Show 2 cards on mobile devices
+          slidesToShow: 1, 
           slidesToScroll: 1,
         },
       },
@@ -41,7 +59,7 @@ function PostCarousel() {
   };
 
   return (
-    <div className="h-auto mx-10 gap-24">
+    <div className="mx-10 gap-24">
       <Slider {...settings}>
         <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631244/CAAS/carousel1_qrbt6h.webm'}/>
         <Card src={'https://res.cloudinary.com/dwwd1oncs/video/upload/f_auto,q_auto/v1727631245/CAAS/carousel2_m1uj8u.webm'}/>

@@ -47,7 +47,7 @@ const TypingWords = ({
   }, [index, isDeleting, words, wordIndex, speed, pause]);
 
   return (
-    <div>
+    <div className='mt-4 md:mt-6'>
       {displayedText}
       {cursor && <span className="blinking-cursor">|</span>}
     </div>

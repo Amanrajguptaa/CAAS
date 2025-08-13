@@ -26,20 +26,20 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full px-20 py-10">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="w-full max-w-6xl mx-auto px-5 md:px-10 py-10">
+      <div className="flex justify-between items-center">
         <Link to={'/'}>
           <img src="/webLogo.png" alt="Logo" />
         </Link>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-white text-lg font-semibold border rounded-[50px] px-28 py-5 gap-5">
+        <ul className="hidden lg:flex space-x-6 text-white text-lg font-semibold border rounded-[50px] px-28 py-5 gap-5">
           <li>
             <a
               onClick={() => handleScroll('about')}
               className="hover:text-lime-400 cursor-pointer"
             >
-              About Us
+              About
             </a>
           </li>
           <NavLink
@@ -83,13 +83,13 @@ const Navbar = () => {
               onClick={() => handleScroll('contact')}
               className="hover:text-lime-400 cursor-pointer"
             >
-              Contact Us
+              Contact
             </a>
           </li>
         </ul>
 
         {/* Mobile Menu Toggle Button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button onClick={toggleMenu} className="text-white">
             {!isMenuOpen ? (
               <svg
@@ -113,7 +113,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="z-[100] md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-80 flex flex-col items-center justify-center space-y-4 text-white text-lg font-semibold">
+        <div className="z-[100] md:hidden fixed inset-0 backdrop-blur-sm bg-black bg-opacity-90 flex flex-col items-center justify-center space-y-4 text-white text-center text-lg font-semibold">
           <button
             onClick={closeMenu}
             className="absolute top-5 right-5 text-white z-30"

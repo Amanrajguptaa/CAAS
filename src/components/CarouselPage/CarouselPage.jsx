@@ -3,31 +3,24 @@ import Navbar from "../Navbar.jsx";
 import CarouselCard from "./CarouselCard.jsx";
 function CarouselPage() {
   return (
-    <div>
-      <div id="home" className="text-white w-full py-5 z-20">
-        <section className="mx-2 md:mx-10 h-auto md:h-[1200px] md:pb-0 rounded-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-96">
-          <div className="relative">
-            <img
-              className="min-h-screen md:h-[1200px] object- rounded-[30px] md:rounded-[50px] border-none w-full"
-              src="/gridd.png"
-              alt="background"
-            />
-          </div>
-          <div className="relative bloack md:hidden">
-            <img
-              className="min-h-[350px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
-              src="/gridd.png"
-              alt="background"
-            />
-          </div>
-          <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
+<div className="pt-5 font-brasika text-white overflow-hidden 2xl:max-w-7xl mx-auto">
+        <div
+          className="mx-2 md:mx-10 rounded-t-[30px] md:rounded-t-[50px] bg-[#0038c7]"
+          style={{
+            backgroundImage: `
+            linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px)
+          `,
+            backgroundSize: "50px 50px",
+          }}
+        >
             <Navbar className="w-full" />
 
             <div className="flex flex-col justify-center items-center">
-              <div className="text-[45px] md:text-[130px]  font-brasika text-white]">
+            <div className="text-[45px] sm:text-[120px] md:text-[90px] lg:text-[120px] xl:text-[130px]">
                 need users to
               </div>
-              <div className="text-[30px] sm:text-[80px] md:text-[60px] lg:text-[100px] -mt-5 sm:-mt-16 md:-mt-20 md:ml-12 font-brasika">
+              <div className="text-[30px] sm:text-[80px] md:text-[60px] lg:text-[80px] xl:text-[90px] -mt-5 sm:-mt-16 md:-mt-12 lg:-mt-20 md:ml-12 font-brasika">
               <span className="text-[#a7ff00]">stay</span> on your page?
               </div>
             </div>
@@ -48,7 +41,7 @@ function CarouselPage() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 my-20 px-2 md:px-0">
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-6 md:gap-8 py-20 px-2 md:px-7">
             <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631244/CAAS/carousel1_qrbt6h.mp4'}/>
         <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631245/CAAS/carousel2_m1uj8u.mp4'}/>
         <CarouselCard src={'https://res.cloudinary.com/dwwd1oncs/video/upload/v1727631246/CAAS/carousel3_ile0xd.mp4'}/>
@@ -60,9 +53,7 @@ function CarouselPage() {
               </div>
 
           </div>
-        </section>
-      </div>
-    </div>
+        </div>
   );
 }
 

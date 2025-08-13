@@ -5,159 +5,245 @@ import PostCard from "./PostCard.jsx";
 function Posts() {
   return (
     <Element name="AllPost">
-      <div id="AllPosts">
-        <div className="text-white w-full py-5 z-20">
-          <section className="mx-2 md:mx-10 h-auto md:h-auto md:pb-0 rounded-[30px] md:rounded-[50px] bg-[#0038c7] relative min-h-[3800px] md:min-h-[3600px]">
-            <div className="relative">
-              <img
-                className="min-h-[400px] md:h-[600px] object- rounded-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative ">
-              <img
-                className="min-h-[400px] md:h-[600px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative ">
-              <img
-                className="min-h-[400px] md:h-[600px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative ">
-              <img
-                className="min-h-[400px] md:h-[600px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative ">
-              <img
-                className="min-h-[400px] md:h-[600px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative ">
-              <img
-                className="min-h-[400px] md:h-[600px] rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative block md:hidden ">
-              <img
-                className="min-h-[400px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative block md:hidden ">
-              <img
-                className="min-h-[400px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative block md:hidden ">
-              <img
-                className="min-h-[400px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
-            <div className="relative block md:hidden ">
-              <img
-                className="min-h-[300px] md:h-auto rounded-b-[30px] md:rounded-[50px] border-none w-full"
-                src="/gridd.png"
-                alt="background"
-              />
-            </div>
+      <div className="pt-5 font-brasika text-white overflow-hidden 2xl:max-w-7xl mx-auto">
+        <div
+          className="mx-2 md:mx-10 rounded-t-[30px] md:rounded-t-[50px] bg-[#0038c7]"
+          style={{
+            backgroundImage: `
+            linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px)
+          `,
+            backgroundSize: "50px 50px",
+          }}
+        >
+          <Navbar className="w-full" />
 
-            <div className="absolute inset-0 flex flex-col items-center justify-start text-center w-full">
-              <Navbar className="w-full" />
+          <div className="flex flex-col justify-center items-center">
+            <div className="text-[55px] sm:text-[120px] md:text-[110px] lg:text-[140px]  font-brasika text-[#a7ff00]">
+              want posts
+            </div>
+            <div className="text-[30px] sm:text-[80px] md:text-[60px] lg:text-[90px] xl:text-[105px] -mt-4 sm:-mt-16 md:-mt-12 lg:-mt-20 md:ml-12 font-brasika">
+              for your brands?
+            </div>
+          </div>
 
-              <div className="flex flex-col justify-center items-center">
-                <div className="text-[55px] sm:text-[120px] md:text-[150px]  font-brasika text-[#a7ff00]">
-                  want posts
-                </div>
-                <div className="text-[35px] sm:text-[80px] md:text-[70px] lg:text-[105px] -mt-8 sm:-mt-16 md:-mt-24 md:ml-12 font-brasika">
-                  for your brands?
-                </div>
-              </div>
-
-              <div className="mt-5  flex justify-center items-center ">
-                <div className="-mt-16">
-                  <img
-                    src="/arrow.png"
-                    alt="arrow"
-                    className="w-[50px] sm:w-[80px] md:w-[100px]"
-                  />
-                </div>
-                {/* <a href="#contact z-30">
-              <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black  text-2xl md:text-2xl lg:text-3xl border-[3px] border-white hover:bg-[#74a220] z-50">
+          <div className="mt-5  flex justify-center items-center ">
+            <div className="-mt-16">
+              <img
+                src="/arrow.png"
+                alt="arrow"
+                className="w-[50px] sm:w-[80px] md:w-[100px]"
+              />
+            </div>
+            <a href="#about" className="hover:text-lime-400 z-50">
+              <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black  text-2xl md:text-2xl lg:text-3xl border-[3px] border-white hover:bg-[#000000] hover:text-[#a7ff00] transform transition-all duration-300 z-50">
                 Book a Demo
               </div>
-            </a> */}
-                <a href="#about" className="hover:text-lime-400 z-50">
-                  <div className="bg-[#a7ff00] rounded-3xl px-6 py-2 md:px-10 lg:px-12 text-black  text-2xl md:text-2xl lg:text-3xl border-[3px] border-white hover:bg-[#000000] hover:text-[#a7ff00] transform transition-all duration-300 z-50">
-                    Book a Demo
-                  </div>
-                </a>
-              </div>
+            </a>
+          </div>
 
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 my-20 px-2 md:px-0">
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108221/CAAS/POSTS/Post_30_lhapxs.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post-4_Shimla_y4oqgj.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post_07_PH_iijbpq.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108219/CAAS/POSTS/Post_25_ve2t6u.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108217/CAAS/POSTS/Post_2_dt8whm.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108218/CAAS/POSTS/Post_29_n1vivd.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/Post-11_japiur-ajmer-pushkar_qnfurv.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Post-2_Sandwich_nbaduf.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108227/CAAS/POSTS/7_wtocnc.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108217/CAAS/POSTS/Post_04_PH_zr8tyl.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/12_1_dmd4lp.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108218/CAAS/POSTS/Post_28_csn3ey.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Post-1_Hero_Post_ldoer9.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Post_1_avrkzo.jpg'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108212/CAAS/POSTS/Aug_01_FB_qgl7cw.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108201/CAAS/POSTS/Post-7_Pasta_1_wkqz3w.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Prioritize_Self-Care_Today_and_Every_Day_IG_bb0drf.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/8_ovmruo.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Post_08_PH_l2y6lc.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108213/CAAS/POSTS/9_qnplcd.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Oct_Post_5_pntmsj.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108206/CAAS/POSTS/Ig_Post_03_jcwism.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108197/CAAS/POSTS/Post-8_Online_Delivery_gqju90.jpg'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108204/CAAS/POSTS/Post_21_IG_x50ssg.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/6_buhh4c.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/12_avnwvu.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-6_DharamShala_McLeod_Ganj_pysm2f.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/Post-18_Funday_Friday_farcp9.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108208/CAAS/POSTS/Post09_kk37tj.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-8_Goa_noytv3.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post_8_fubzn6.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/Post_06_PH_jsynpm.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111409/CAAS/POSTS/posts2/Hapmton_Early_Learning___Child_Care_Centre_Post02_ldorfl.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/5_bo7rio.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112101/CAAS/POSTS/posts2/Post-16_mguluy.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112220/CAAS/POSTS/posts2/WhatsApp_Image_2024-10-05_at_11.47.27_5897fe8b_r0lwob.jpg'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108209/CAAS/POSTS/bluesky_daycare_02_rjgzjp.jpg'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108214/CAAS/POSTS/Post_27_edv3w4.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-15_qfeb69.png'}/>
-              <PostCard src={'https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-6__Fries_and_Drinks_ynfy5b.png'}/>
-
-              
-             
-              </div>
-            </div>
-          </section>
+          <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center gap-6 md:gap-8 py-20 px-2 md:px-7">
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108221/CAAS/POSTS/Post_30_lhapxs.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post-4_Shimla_y4oqgj.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108220/CAAS/POSTS/Post_07_PH_iijbpq.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108219/CAAS/POSTS/Post_25_ve2t6u.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108217/CAAS/POSTS/Post_2_dt8whm.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108218/CAAS/POSTS/Post_29_n1vivd.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/Post-11_japiur-ajmer-pushkar_qnfurv.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Post-2_Sandwich_nbaduf.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108227/CAAS/POSTS/7_wtocnc.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108217/CAAS/POSTS/Post_04_PH_zr8tyl.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/12_1_dmd4lp.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108218/CAAS/POSTS/Post_28_csn3ey.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Post-1_Hero_Post_ldoer9.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Post_1_avrkzo.jpg"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108212/CAAS/POSTS/Aug_01_FB_qgl7cw.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108201/CAAS/POSTS/Post-7_Pasta_1_wkqz3w.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108203/CAAS/POSTS/Prioritize_Self-Care_Today_and_Every_Day_IG_bb0drf.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/8_ovmruo.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Post_08_PH_l2y6lc.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108213/CAAS/POSTS/9_qnplcd.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108202/CAAS/POSTS/Oct_Post_5_pntmsj.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108206/CAAS/POSTS/Ig_Post_03_jcwism.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108197/CAAS/POSTS/Post-8_Online_Delivery_gqju90.jpg"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108204/CAAS/POSTS/Post_21_IG_x50ssg.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/6_buhh4c.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/12_avnwvu.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-6_DharamShala_McLeod_Ganj_pysm2f.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108205/CAAS/POSTS/Post-18_Funday_Friday_farcp9.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108208/CAAS/POSTS/Post09_kk37tj.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post-8_Goa_noytv3.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111410/CAAS/POSTS/posts2/Post_8_fubzn6.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108207/CAAS/POSTS/Post_06_PH_jsynpm.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111409/CAAS/POSTS/posts2/Hapmton_Early_Learning___Child_Care_Centre_Post02_ldorfl.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111408/CAAS/POSTS/posts2/5_bo7rio.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112101/CAAS/POSTS/posts2/Post-16_mguluy.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728112220/CAAS/POSTS/posts2/WhatsApp_Image_2024-10-05_at_11.47.27_5897fe8b_r0lwob.jpg"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108209/CAAS/POSTS/bluesky_daycare_02_rjgzjp.jpg"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728108214/CAAS/POSTS/Post_27_edv3w4.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-15_qfeb69.png"
+              }
+            />
+            <PostCard
+              src={
+                "https://res.cloudinary.com/dwwd1oncs/image/upload/f_auto,q_auto/v1728111868/CAAS/POSTS/posts2/Post-6__Fries_and_Drinks_ynfy5b.png"
+              }
+            />
+          </div>
         </div>
       </div>
     </Element>

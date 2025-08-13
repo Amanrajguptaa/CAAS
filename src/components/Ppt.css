@@ -51,25 +51,31 @@ html, body {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
-.card-even{
+.card-even,
+.card-odd {
   display: inline-block;
   height: 100%;
-  width: 50%;
+  width: 100%;
+  margin-right: 1%;
+  border: 1px solid black;
+  border-radius: 12.5px;
+}
+
+.card-even {
   background-color: white;
-  border: 1px solid black;
-  border-radius: 12.5px;
-  animation-name: scroll;
 }
 
-.card-odd{
-  display: inline-block;
-  height: 100%;
-  width: 50%;
+.card-odd {
   background-color: #a7ff00;
-  border: 1px solid black;
-  border-radius: 12.5px;
 }
+
+@media (min-width: 768px) {
+  .card-even,
+  .card-odd {
+    width: 50%;
+  }
+}
+
 
 @keyframes scroll1 {
   from {
@@ -109,3 +115,16 @@ html, body {
   text-align: center;
   border: 1px solid red;
 }
+
+
+.tag {
+  background-color: #a7ff00;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 20px;
+  margin: 0rem 0;
+}
+
